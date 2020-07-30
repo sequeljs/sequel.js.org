@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-174064534-1
