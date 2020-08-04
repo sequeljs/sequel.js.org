@@ -1,0 +1,132 @@
+---
+id: '_nodes_quoted_.quoted'
+title: 'Quoted'
+sidebar_label: 'Quoted'
+---
+
+[@sequeljs/ast](../index.md) › [Globals](../globals.md) ›
+["nodes/Quoted"](../modules/_nodes_quoted_.md) ›
+[Quoted](_nodes_quoted_.quoted.md)
+
+## Hierarchy
+
+↳ [Unary](_nodes_unary_.unary.md)‹any›
+
+↳ **Quoted**
+
+## Index
+
+### Constructors
+
+- [constructor](_nodes_quoted_.quoted.md#constructor)
+
+### Properties
+
+- [expr](_nodes_quoted_.quoted.md#expr)
+
+### Accessors
+
+- [value](_nodes_quoted_.quoted.md#value)
+
+### Methods
+
+- [as](_nodes_quoted_.quoted.md#as)
+- [isInfinite](_nodes_quoted_.quoted.md#protected-isinfinite)
+- [toSQL](_nodes_quoted_.quoted.md#tosql)
+
+## Constructors
+
+### constructor
+
+\+ **new Quoted**(`expr`: any): _[Quoted](_nodes_quoted_.quoted.md)_
+
+_Inherited from
+[DistinctOn](_nodes_distincton_.distincton.md).[constructor](_nodes_distincton_.distincton.md#constructor)_
+
+_Defined in
+[src/nodes/Unary.ts:12](https://github.com/sequeljs/ast/blob/aa0ef0f/src/nodes/Unary.ts#L12)_
+
+**Parameters:**
+
+| Name   | Type |
+| ------ | ---- |
+| `expr` | any  |
+
+**Returns:** _[Quoted](_nodes_quoted_.quoted.md)_
+
+## Properties
+
+### expr
+
+• **expr**: _any_
+
+_Inherited from
+[DistinctOn](_nodes_distincton_.distincton.md).[expr](_nodes_distincton_.distincton.md#expr)_
+
+_Defined in
+[src/nodes/Unary.ts:8](https://github.com/sequeljs/ast/blob/aa0ef0f/src/nodes/Unary.ts#L8)_
+
+## Accessors
+
+### value
+
+• **get value**(): _any_
+
+_Inherited from
+[DistinctOn](_nodes_distincton_.distincton.md).[value](_nodes_distincton_.distincton.md#value)_
+
+_Defined in
+[src/nodes/Unary.ts:10](https://github.com/sequeljs/ast/blob/aa0ef0f/src/nodes/Unary.ts#L10)_
+
+**Returns:** _any_
+
+## Methods
+
+### as
+
+▸ **as**(`other`: string | [SQLLiteral](_nodes_sqlliteral_.sqlliteral.md)):
+_[As](_nodes_as_.as.md)_
+
+_Inherited from [As](_nodes_as_.as.md).[as](_nodes_as_.as.md#as)_
+
+_Defined in
+[src/mixins/AliasPredication.ts:5](https://github.com/sequeljs/ast/blob/aa0ef0f/src/mixins/AliasPredication.ts#L5)_
+
+**Parameters:**
+
+| Name    | Type                                                         |
+| ------- | ------------------------------------------------------------ |
+| `other` | string &#124; [SQLLiteral](_nodes_sqlliteral_.sqlliteral.md) |
+
+**Returns:** _[As](_nodes_as_.as.md)_
+
+---
+
+### `Protected` isInfinite
+
+▸ **isInfinite**(): _boolean_
+
+_Defined in
+[src/nodes/Quoted.ts:4](https://github.com/sequeljs/ast/blob/aa0ef0f/src/nodes/Quoted.ts#L4)_
+
+**Returns:** _boolean_
+
+---
+
+### toSQL
+
+▸ **toSQL**(`engine`: [Engine](../interfaces/_interfaces_engine_.engine.md) |
+null): _any_
+
+_Inherited from [As](_nodes_as_.as.md).[toSQL](_nodes_as_.as.md#tosql)_
+
+_Defined in
+[src/nodes/Node.ts:16](https://github.com/sequeljs/ast/blob/aa0ef0f/src/nodes/Node.ts#L16)_
+
+**Parameters:**
+
+| Name     | Type                                                              | Default          |
+| -------- | ----------------------------------------------------------------- | ---------------- |
+| `engine` | [Engine](../interfaces/_interfaces_engine_.engine.md) &#124; null | SequelAST.engine |
+
+**Returns:** _any_
