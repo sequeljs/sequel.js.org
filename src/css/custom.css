@@ -20,33 +20,27 @@
 
 .flex {
   display: flex;
-
-  &--centered {
-    align-items: center;
-    justify-content: center;
-  }
-
-  &--row {
-    flex-direction: row;
-  }
 }
 
-.list {
-  &--no-spacing {
-    margin: 0;
-    padding: 0;
-  }
+.flex--centered {
+  align-items: center;
+  justify-content: center;
+}
 
-  &--no-style {
-    li {
-      list-style: none;
-    }
-  }
+.flex--row {
+  flex-direction: row;
+}
 
-  &-item {
-    &--horizontal-spacing {
-      padding-left: 4px;
-      padding-right: 4px;
-    }
-  }
+.list--no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+.list--no-style li {
+  list-style: none;
+}
+
+.list-item--horizontal-spacing {
+  padding-left: 4px;
+  padding-right: 4px;
 }

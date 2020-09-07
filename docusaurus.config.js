@@ -75,15 +75,13 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          homePageId: 'index',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/sequeljs/sequel.js.org/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/sass/custom.scss'),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
   ],
-  plugins: ['docusaurus-plugin-sass'],
 }

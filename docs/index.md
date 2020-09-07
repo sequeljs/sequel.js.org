@@ -2,6 +2,7 @@
 id: index
 title: About
 sidebar_label: About
+slug: /
 ---
 
 Sequel.js is a collection of libraries designed to help developers access
