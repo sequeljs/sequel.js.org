@@ -52,7 +52,7 @@ function Feature(props) {
           {links.map((link) => (
             <li className="list-item--horizontal-spacing">
               {link.href && (
-                <a href={link.href} target="_blank">
+                <a href={link.href} rel="noopener noreferrer" target="_blank">
                   {link.title}
                 </a>
               )}
