@@ -69,6 +69,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Sequel.js, Inc. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-174064534-1',
+      anonymizeIP: true,
+    },
   },
   presets: [
     [
