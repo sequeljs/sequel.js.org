@@ -15,6 +15,14 @@ databases in JavaScript applications.
 Check out the [API Reference](ast/api/globals) or the
 [Source Code](https://github.com/sequeljs/ast)
 
+### @sequeljs/omi
+
+`@sequeljs/omi` is a collection of interfaces (under development) for model
+classes in JavaScript.
+
+Check out the [API Reference](omi/api/globals) or the
+[Source Code](https://github.com/sequeljs/omi)
+
 ### @sequeljs/orm
 
 `@sequeljs/orm` is an (under development) ORM built on top of

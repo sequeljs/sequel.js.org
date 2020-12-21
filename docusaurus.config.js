@@ -43,6 +43,10 @@ module.exports = {
               to: 'docs/ast/api/index',
             },
             {
+              label: 'OMI',
+              to: 'docs/omi/api/index',
+            },
+            {
               label: 'ORM',
               to: 'docs/orm/api/index',
             },

@@ -12,6 +12,11 @@ module.exports = {
         },
         {
           type: 'category',
+          label: '@sequeljs/omi',
+          items: ['omi/api/index', 'omi/api/globals'],
+        },
+        {
+          type: 'category',
           label: '@sequeljs/orm',
           items: ['orm/api/index', 'orm/api/globals'],
         },

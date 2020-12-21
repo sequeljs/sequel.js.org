@@ -18,6 +18,19 @@ const features = [
     ],
   },
   {
+    title: <Fragment>OMI</Fragment>,
+    description: (
+      <Fragment>
+        A collection of interfaces (under development) for model classes in
+        JavaScript.
+      </Fragment>
+    ),
+    links: [
+      { title: 'API Reference', to: 'docs/omi/api/globals' },
+      { title: 'Source Code', href: 'https://github.com/sequeljs/omi' },
+    ],
+  },
+  {
     title: <Fragment>ORM</Fragment>,
     description: (
       <Fragment>
