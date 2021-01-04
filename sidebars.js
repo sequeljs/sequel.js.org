@@ -8,17 +8,17 @@ module.exports = {
         {
           type: 'category',
           label: '@sequeljs/ast',
-          items: ['ast/api/index', 'ast/api/globals'],
+          items: ['ast/api/README', 'ast/api/modules'],
         },
         {
           type: 'category',
           label: '@sequeljs/omi',
-          items: ['omi/api/index', 'omi/api/globals'],
+          items: ['omi/api/README', 'omi/api/modules'],
         },
         {
           type: 'category',
           label: '@sequeljs/orm',
-          items: ['orm/api/index', 'orm/api/globals'],
+          items: ['orm/api/README', 'orm/api/modules'],
         },
       ],
     },

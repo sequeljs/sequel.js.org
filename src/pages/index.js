@@ -13,7 +13,7 @@ const features = [
     title: <Fragment>AST</Fragment>,
     description: <Fragment>A SQL AST manager with zero dependencies</Fragment>,
     links: [
-      { title: 'API Reference', to: 'docs/ast/api/globals' },
+      { title: 'API Reference', to: 'docs/ast/api/modules' },
       { title: 'Source Code', href: 'https://github.com/sequeljs/ast' },
     ],
   },
@@ -21,12 +21,13 @@ const features = [
     title: <Fragment>OMI</Fragment>,
     description: (
       <Fragment>
-        A collection of interfaces (under development) for model classes in
-        JavaScript.
+        A collection of interfaces for model classes in JavaScript.
+        <br />
+        (still under development)
       </Fragment>
     ),
     links: [
-      { title: 'API Reference', to: 'docs/omi/api/globals' },
+      { title: 'API Reference', to: 'docs/omi/api/modules' },
       { title: 'Source Code', href: 'https://github.com/sequeljs/omi' },
     ],
   },
@@ -40,7 +41,7 @@ const features = [
       </Fragment>
     ),
     links: [
-      { title: 'API Reference', to: 'docs/orm/api/globals' },
+      { title: 'API Reference', to: 'docs/orm/api/modules' },
       { title: 'Source Code', href: 'https://github.com/sequeljs/orm' },
     ],
   },
@@ -52,7 +53,7 @@ function Feature(props) {
   const imgSrc = useBaseUrl(imageUrl)
 
   return (
-    <div className={clsx('col col--6', styles.feature)}>
+    <div className={clsx('col col--4', styles.feature)}>
       {imgSrc && (
         <div className="text--center">
           <img alt={title} className={styles.featureImage} src={imgSrc} />
