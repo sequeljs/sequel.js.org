@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Collectors](../modules/collectors.md) / Bind
+---
+id: 'collectors.bind'
+title: 'Class: Bind'
+sidebar_label: 'Bind'
+hide_title: true
+---
 
 # Class: Bind
 
@@ -12,25 +16,6 @@
 ## Implements
 
 - [_Collector_](../interfaces/collectors.collector.md)<_string_[]\>
-
-## Table of contents
-
-### Constructors
-
-- [constructor](collectors.bind.md#constructor)
-
-### Properties
-
-- [strBinds](collectors.bind.md#strbinds)
-
-### Accessors
-
-- [value](collectors.bind.md#value)
-
-### Methods
-
-- [addBind](collectors.bind.md#addbind)
-- [append](collectors.bind.md#append)
 
 ## Constructors
 
@@ -46,8 +31,7 @@
 
 • `Private` **strBinds**: _string_[]
 
-Defined in:
-[src/collectors/Bind.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L5)
+Defined in: @sequeljs/ast/src/collectors/Bind.ts:5
 
 ## Accessors
 
@@ -57,8 +41,7 @@ Defined in:
 
 **Returns:** _string_[]
 
-Defined in:
-[src/collectors/Bind.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L7)
+Defined in: @sequeljs/ast/src/collectors/Bind.ts:7
 
 ## Methods
 
@@ -78,8 +61,7 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/Bind.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L11)
+Defined in: @sequeljs/ast/src/collectors/Bind.ts:11
 
 ---
 
@@ -97,5 +79,4 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/Bind.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L17)
+Defined in: @sequeljs/ast/src/collectors/Bind.ts:17

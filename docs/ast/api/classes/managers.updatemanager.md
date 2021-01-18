@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Managers](../modules/managers.md) / UpdateManager
+---
+id: 'managers.updatemanager'
+title: 'Class: UpdateManager'
+sidebar_label: 'UpdateManager'
+hide_title: true
+---
 
 # Class: UpdateManager
 
@@ -14,42 +18,6 @@
 
   ↳ **UpdateManager**
 
-## Table of contents
-
-### Constructors
-
-- [constructor](managers.updatemanager.md#constructor)
-
-### Properties
-
-- [ast](managers.updatemanager.md#ast)
-- [ctx](managers.updatemanager.md#ctx)
-
-### Accessors
-
-- [key](managers.updatemanager.md#key)
-- [wheres](managers.updatemanager.md#wheres)
-
-### Methods
-
-- [coalesce](managers.updatemanager.md#coalesce)
-- [createAnd](managers.updatemanager.md#createand)
-- [createFalse](managers.updatemanager.md#createfalse)
-- [createJoin](managers.updatemanager.md#createjoin)
-- [createOn](managers.updatemanager.md#createon)
-- [createStringJoin](managers.updatemanager.md#createstringjoin)
-- [createTableAlias](managers.updatemanager.md#createtablealias)
-- [createTrue](managers.updatemanager.md#createtrue)
-- [grouping](managers.updatemanager.md#grouping)
-- [lower](managers.updatemanager.md#lower)
-- [offset](managers.updatemanager.md#offset)
-- [order](managers.updatemanager.md#order)
-- [set](managers.updatemanager.md#set)
-- [table](managers.updatemanager.md#table)
-- [take](managers.updatemanager.md#take)
-- [toSQL](managers.updatemanager.md#tosql)
-- [where](managers.updatemanager.md#where)
-
 ## Constructors
 
 ### constructor
@@ -60,8 +28,7 @@
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/UpdateManager.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/UpdateManager.ts#L11)
+Defined in: @sequeljs/ast/src/managers/UpdateManager.ts:11
 
 ## Properties
 
@@ -72,8 +39,7 @@ Defined in:
 Inherited from:
 [TreeManager](managers.treemanager.md).[ast](managers.treemanager.md#ast)
 
-Defined in:
-[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L15)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:15
 
 ---
 
@@ -84,8 +50,7 @@ Defined in:
 Overrides:
 [TreeManager](managers.treemanager.md).[ctx](managers.treemanager.md#ctx)
 
-Defined in:
-[src/managers/UpdateManager.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/UpdateManager.ts#L11)
+Defined in: @sequeljs/ast/src/managers/UpdateManager.ts:11
 
 ## Accessors
 
@@ -95,8 +60,7 @@ Defined in:
 
 **Returns:** _any_
 
-Defined in:
-[src/mixins/StatementMethods.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:13
 
 • **key**(`val`: _any_): _void_
 
@@ -108,8 +72,7 @@ Defined in:
 
 **Returns:** _void_
 
-Defined in:
-[src/mixins/StatementMethods.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L17)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:17
 
 ---
 
@@ -125,8 +88,7 @@ Defined in:
 
 **Returns:** _void_
 
-Defined in:
-[src/mixins/StatementMethods.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L21)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:21
 
 ## Methods
 
@@ -145,8 +107,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:22
 
 ---
 
@@ -164,8 +125,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:26
 
 ---
 
@@ -177,8 +137,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:30
 
 ---
 
@@ -198,8 +157,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:34
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -216,8 +174,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:35
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -237,8 +194,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:39
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -257,8 +213,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:44
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -277,8 +232,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:49
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -298,8 +252,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:54
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -318,8 +271,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:59
 
 ---
 
@@ -337,8 +289,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:72
 
 ---
 
@@ -358,8 +309,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:76
 
 ---
 
@@ -381,8 +331,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:80
 
 ---
 
@@ -394,8 +343,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:87
 
 ---
 
@@ -413,8 +361,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:91
 
 ---
 
@@ -432,8 +379,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:95
 
 ---
 
@@ -450,8 +396,7 @@ _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
 **Returns:** _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
-Defined in:
-[src/mixins/StatementMethods.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:25
 
 ---
 
@@ -468,8 +413,7 @@ _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
 **Returns:** _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
-Defined in:
-[src/mixins/StatementMethods.ts:33](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L33)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:33
 
 ---
 
@@ -485,8 +429,7 @@ Defined in:
 
 **Returns:** [_UpdateManager_](managers.updatemanager.md)
 
-Defined in:
-[src/managers/UpdateManager.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/UpdateManager.ts#L19)
+Defined in: @sequeljs/ast/src/managers/UpdateManager.ts:19
 
 ---
 
@@ -505,8 +448,7 @@ Defined in:
 
 **Returns:** [_UpdateManager_](managers.updatemanager.md)
 
-Defined in:
-[src/managers/UpdateManager.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/UpdateManager.ts#L35)
+Defined in: @sequeljs/ast/src/managers/UpdateManager.ts:35
 
 ---
 
@@ -523,8 +465,7 @@ _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
 **Returns:** _default_<[_UpdateStatement_](nodes.updatestatement.md)\>
 
-Defined in:
-[src/mixins/StatementMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/StatementMethods.ts:39
 
 ---
 
@@ -543,8 +484,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L23)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:23
 
 ---
 
@@ -562,5 +502,4 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L44)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:44

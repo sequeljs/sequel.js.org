@@ -8,17 +8,17 @@ module.exports = {
         {
           type: 'category',
           label: '@sequeljs/ast',
-          items: ['ast/api/README', 'ast/api/modules'],
+          items: require('./docs/ast/sidebar.js'),
         },
         {
           type: 'category',
           label: '@sequeljs/omi',
-          items: ['omi/api/README', 'omi/api/modules'],
+          items: require('./docs/omi/sidebar.js'),
         },
         {
           type: 'category',
           label: '@sequeljs/orm',
-          items: ['orm/api/README', 'orm/api/modules'],
+          items: require('./docs/orm/sidebar.js'),
         },
       ],
     },

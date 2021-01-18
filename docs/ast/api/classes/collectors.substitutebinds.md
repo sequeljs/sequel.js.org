@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Collectors](../modules/collectors.md) / SubstituteBinds
+---
+id: 'collectors.substitutebinds'
+title: 'Class: SubstituteBinds<T>'
+sidebar_label: 'SubstituteBinds'
+hide_title: true
+---
 
 # Class: SubstituteBinds<T\>
 
@@ -18,26 +22,6 @@
 ## Implements
 
 - [_Collector_](../interfaces/collectors.collector.md)<T[*value*]\>
-
-## Table of contents
-
-### Constructors
-
-- [constructor](collectors.substitutebinds.md#constructor)
-
-### Properties
-
-- [delegate](collectors.substitutebinds.md#delegate)
-- [quoter](collectors.substitutebinds.md#quoter)
-
-### Accessors
-
-- [value](collectors.substitutebinds.md#value)
-
-### Methods
-
-- [addBind](collectors.substitutebinds.md#addbind)
-- [append](collectors.substitutebinds.md#append)
 
 ## Constructors
 
@@ -62,8 +46,7 @@
 
 **Returns:** [_SubstituteBinds_](collectors.substitutebinds.md)<T\>
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:14](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L14)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:14
 
 ## Properties
 
@@ -71,8 +54,7 @@ Defined in:
 
 • `Protected` `Readonly` **delegate**: T
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L8)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:8
 
 ---
 
@@ -81,8 +63,7 @@ Defined in:
 • `Protected` `Readonly` **quoter**:
 [_Quoter_](../interfaces/interfaces.quoter.md)
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L10)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:10
 
 ## Accessors
 
@@ -92,8 +73,7 @@ Defined in:
 
 **Returns:** T[*value*]
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:12](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L12)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:12
 
 ## Methods
 
@@ -112,8 +92,7 @@ Defined in:
 
 **Returns:** [_SubstituteBinds_](collectors.substitutebinds.md)<T\>
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L21)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:21
 
 ---
 
@@ -132,5 +111,4 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/SubstituteBinds.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SubstituteBinds.ts#L25)
+Defined in: @sequeljs/ast/src/collectors/SubstituteBinds.ts:25

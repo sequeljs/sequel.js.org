@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Interfaces](../modules/interfaces.md) / Connection
+---
+id: 'interfaces.connection'
+title: 'Interface: Connection'
+sidebar_label: 'Connection'
+hide_title: true
+---
 
 # Interface: Connection
 
@@ -11,28 +15,13 @@
 
   ↳ **Connection**
 
-## Table of contents
-
-### Properties
-
-- [inClauseLength](interfaces.connection.md#inclauselength)
-- [visitor](interfaces.connection.md#visitor)
-
-### Methods
-
-- [quote](interfaces.connection.md#quote)
-- [quoteColumnName](interfaces.connection.md#quotecolumnname)
-- [quoteTableName](interfaces.connection.md#quotetablename)
-- [sanitizeAsSQLComment](interfaces.connection.md#sanitizeassqlcomment)
-
 ## Properties
 
 ### inClauseLength
 
 • **inClauseLength**: _null_ \| _number_
 
-Defined in:
-[src/interfaces/Connection.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L6)
+Defined in: @sequeljs/ast/src/interfaces/Connection.ts:6
 
 ---
 
@@ -40,8 +29,7 @@ Defined in:
 
 • **visitor**: _null_ \| [_Visitor_](../classes/visitors.visitor.md)
 
-Defined in:
-[src/interfaces/Connection.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L8)
+Defined in: @sequeljs/ast/src/interfaces/Connection.ts:8
 
 ## Methods
 
@@ -60,8 +48,7 @@ Defined in:
 
 Inherited from: [Quoter](interfaces.quoter.md)
 
-Defined in:
-[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L6)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:6
 
 ---
 
@@ -80,8 +67,7 @@ Defined in:
 
 Inherited from: [Quoter](interfaces.quoter.md)
 
-Defined in:
-[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L8)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:8
 
 ---
 
@@ -100,8 +86,7 @@ Defined in:
 
 Inherited from: [Quoter](interfaces.quoter.md)
 
-Defined in:
-[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L10)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:10
 
 ---
 
@@ -117,5 +102,4 @@ Defined in:
 
 **Returns:** _string_
 
-Defined in:
-[src/interfaces/Connection.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L10)
+Defined in: @sequeljs/ast/src/interfaces/Connection.ts:10

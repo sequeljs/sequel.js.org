@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Collectors](../modules/collectors.md) / Composite
+---
+id: 'collectors.composite'
+title: 'Class: Composite<L, R>'
+sidebar_label: 'Composite'
+hide_title: true
+---
 
 # Class: Composite<L, R\>
 
@@ -20,26 +24,6 @@
 
 - [_Collector_](../interfaces/collectors.collector.md)<[L[*value*],
   R[*value*]]\>
-
-## Table of contents
-
-### Constructors
-
-- [constructor](collectors.composite.md#constructor)
-
-### Properties
-
-- [left](collectors.composite.md#left)
-- [right](collectors.composite.md#right)
-
-### Accessors
-
-- [value](collectors.composite.md#value)
-
-### Methods
-
-- [addBind](collectors.composite.md#addbind)
-- [append](collectors.composite.md#append)
 
 ## Constructors
 
@@ -64,8 +48,7 @@
 
 **Returns:** [_Composite_](collectors.composite.md)<L, R\>
 
-Defined in:
-[src/collectors/Composite.ts:14](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L14)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:14
 
 ## Properties
 
@@ -73,8 +56,7 @@ Defined in:
 
 • `Protected` `Readonly` **left**: L
 
-Defined in:
-[src/collectors/Composite.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L8)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:8
 
 ---
 
@@ -82,8 +64,7 @@ Defined in:
 
 • `Protected` `Readonly` **right**: R
 
-Defined in:
-[src/collectors/Composite.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L10)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:10
 
 ## Accessors
 
@@ -93,8 +74,7 @@ Defined in:
 
 **Returns:** [L[*value*], L[*value*]]
 
-Defined in:
-[src/collectors/Composite.ts:12](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L12)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:12
 
 ## Methods
 
@@ -115,8 +95,7 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/Composite.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L21)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:21
 
 ---
 
@@ -134,5 +113,4 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/Composite.ts:28](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L28)
+Defined in: @sequeljs/ast/src/collectors/Composite.ts:28

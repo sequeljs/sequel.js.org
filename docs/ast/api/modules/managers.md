@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Managers
+---
+id: 'managers'
+title: 'Namespace: Managers'
+sidebar_label: 'Managers'
+hide_title: true
+---
 
 # Namespace: Managers
 

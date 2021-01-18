@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Table
+---
+id: 'table'
+title: 'Class: Table'
+sidebar_label: 'Table'
+hide_title: true
+---
 
 # Class: Table
 
@@ -15,55 +20,6 @@
 ## Implements
 
 - [_TypeCaster_](../interfaces/interfaces.typecaster.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](table.md#constructor)
-
-### Properties
-
-- [ast](table.md#ast)
-- [ctx](table.md#ctx)
-- [name](table.md#name)
-- [tableAlias](table.md#tablealias)
-- [typeCaster](table.md#typecaster)
-
-### Accessors
-
-- [tableName](table.md#tablename)
-
-### Methods
-
-- [alias](table.md#alias)
-- [coalesce](table.md#coalesce)
-- [compileDelete](table.md#compiledelete)
-- [compileInsert](table.md#compileinsert)
-- [compileUpdate](table.md#compileupdate)
-- [createAnd](table.md#createand)
-- [createFalse](table.md#createfalse)
-- [createInsert](table.md#createinsert)
-- [createJoin](table.md#createjoin)
-- [createOn](table.md#createon)
-- [createStringJoin](table.md#createstringjoin)
-- [createTableAlias](table.md#createtablealias)
-- [createTrue](table.md#createtrue)
-- [from](table.md#from)
-- [get](table.md#get)
-- [group](table.md#group)
-- [grouping](table.md#grouping)
-- [having](table.md#having)
-- [isAbleToTypeCast](table.md#isabletotypecast)
-- [join](table.md#join)
-- [lower](table.md#lower)
-- [order](table.md#order)
-- [outerJoin](table.md#outerjoin)
-- [project](table.md#project)
-- [skip](table.md#skip)
-- [take](table.md#take)
-- [typeCastForDatabase](table.md#typecastfordatabase)
-- [where](table.md#where)
 
 ## Constructors
 
@@ -82,8 +38,7 @@
 
 **Returns:** [_Table_](table.md)
 
-Defined in:
-[src/Table.ts:23](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L23)
+Defined in: @sequeljs/ast/src/Table.ts:23
 
 ## Properties
 
@@ -91,8 +46,7 @@ Defined in:
 
 • `Readonly` `Abstract` **ast**: [_SelectStatement_](nodes.selectstatement.md)
 
-Defined in:
-[src/mixins/CRUD.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:11
 
 ---
 
@@ -100,8 +54,7 @@ Defined in:
 
 • `Protected` `Abstract` **ctx**: [_SelectCore_](nodes.selectcore.md)
 
-Defined in:
-[src/mixins/CRUD.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:13
 
 ---
 
@@ -109,8 +62,7 @@ Defined in:
 
 • **name**: _string_
 
-Defined in:
-[src/Table.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L15)
+Defined in: @sequeljs/ast/src/Table.ts:15
 
 ---
 
@@ -118,8 +70,7 @@ Defined in:
 
 • **tableAlias**: _null_ \| _string_ \| [_TableAlias_](nodes.tablealias.md)
 
-Defined in:
-[src/Table.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L17)
+Defined in: @sequeljs/ast/src/Table.ts:17
 
 ---
 
@@ -128,8 +79,7 @@ Defined in:
 • `Protected` **typeCaster**:
 [_TypeCaster_](../interfaces/interfaces.typecaster.md)
 
-Defined in:
-[src/Table.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L19)
+Defined in: @sequeljs/ast/src/Table.ts:19
 
 ## Accessors
 
@@ -139,8 +89,7 @@ Defined in:
 
 **Returns:** _string_
 
-Defined in:
-[src/Table.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L21)
+Defined in: @sequeljs/ast/src/Table.ts:21
 
 ## Methods
 
@@ -156,8 +105,7 @@ Defined in:
 
 **Returns:** [_TableAlias_](nodes.tablealias.md)
 
-Defined in:
-[src/Table.ts:41](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L41)
+Defined in: @sequeljs/ast/src/Table.ts:41
 
 ---
 
@@ -174,8 +122,7 @@ Defined in:
 
 **Returns:** [_NamedSQLFunction_](nodes.namedsqlfunction.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:22
 
 ---
 
@@ -185,8 +132,7 @@ Defined in:
 
 **Returns:** [_DeleteManager_](managers.deletemanager.md)
 
-Defined in:
-[src/mixins/CRUD.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:49
 
 ---
 
@@ -203,8 +149,7 @@ Defined in:
 
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
-Defined in:
-[src/mixins/CRUD.ts:37](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L37)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:37
 
 ---
 
@@ -222,8 +167,7 @@ Defined in:
 
 **Returns:** [_UpdateManager_](managers.updatemanager.md)
 
-Defined in:
-[src/mixins/CRUD.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L15)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:15
 
 ---
 
@@ -239,8 +183,7 @@ Defined in:
 
 **Returns:** [_And_](nodes.and.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:26
 
 ---
 
@@ -250,8 +193,7 @@ Defined in:
 
 **Returns:** [_False_](nodes.false.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:30
 
 ---
 
@@ -261,8 +203,7 @@ Defined in:
 
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
-Defined in:
-[src/mixins/CRUD.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L45)
+Defined in: @sequeljs/ast/src/mixins/CRUD.ts:45
 
 ---
 
@@ -280,8 +221,7 @@ Defined in:
 
 **Returns:** [_InnerJoin_](nodes.innerjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:34
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -296,8 +236,7 @@ Defined in:
 
 **Returns:** [_InnerJoin_](nodes.innerjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:35
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -315,8 +254,7 @@ Defined in:
 
 **Returns:** [_FullOuterJoin_](nodes.fullouterjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:39
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -333,8 +271,7 @@ Defined in:
 
 **Returns:** [_InnerJoin_](nodes.innerjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:44
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -351,8 +288,7 @@ Defined in:
 
 **Returns:** [_OuterJoin_](nodes.outerjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:49
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -370,8 +306,7 @@ Defined in:
 
 **Returns:** [_RightOuterJoin_](nodes.rightouterjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:54
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -388,8 +323,7 @@ Defined in:
 
 **Returns:** [_StringJoin_](nodes.stringjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:59
 
 ---
 
@@ -405,8 +339,7 @@ Defined in:
 
 **Returns:** [_On_](nodes.on.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:72
 
 ---
 
@@ -424,8 +357,7 @@ Defined in:
 
 **Returns:** [_StringJoin_](nodes.stringjoin.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:76
 
 ---
 
@@ -445,8 +377,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 
 **Returns:** [_TableAlias_](nodes.tablealias.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:80
 
 ---
 
@@ -456,8 +387,7 @@ Defined in:
 
 **Returns:** [_True_](nodes.true.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:87
 
 ---
 
@@ -467,8 +397,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:13
 
 ---
 
@@ -485,8 +414,7 @@ Defined in:
 
 **Returns:** [_Attribute_](attributes.attribute.md)
 
-Defined in:
-[src/Table.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L45)
+Defined in: @sequeljs/ast/src/Table.ts:45
 
 ---
 
@@ -504,8 +432,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L17)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:17
 
 ---
 
@@ -521,8 +448,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:91
 
 ---
 
@@ -538,8 +464,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L21)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:21
 
 ---
 
@@ -551,8 +476,7 @@ Defined in:
 
 Implementation of: [TypeCaster](../interfaces/interfaces.typecaster.md)
 
-Defined in:
-[src/Table.ts:50](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L50)
+Defined in: @sequeljs/ast/src/Table.ts:50
 
 ---
 
@@ -572,8 +496,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:25
 
 ---
 
@@ -589,8 +512,7 @@ Defined in:
 
 **Returns:** [_NamedSQLFunction_](nodes.namedsqlfunction.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:95
 
 ---
 
@@ -606,8 +528,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:32](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L32)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:32
 
 ---
 
@@ -625,8 +546,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:36](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L36)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:36
 
 ---
 
@@ -643,8 +563,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:40](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L40)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:40
 
 ---
 
@@ -660,8 +579,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:44
 
 ---
 
@@ -677,8 +595,7 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:48](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L48)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:48
 
 ---
 
@@ -699,8 +616,7 @@ Defined in:
 
 Implementation of: [TypeCaster](../interfaces/interfaces.typecaster.md)
 
-Defined in:
-[src/Table.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/Table.ts#L54)
+Defined in: @sequeljs/ast/src/Table.ts:54
 
 ---
 
@@ -716,5 +632,4 @@ Defined in:
 
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
-Defined in:
-[src/mixins/SelectPredications.ts:52](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/SelectPredications.ts#L52)
+Defined in: @sequeljs/ast/src/mixins/SelectPredications.ts:52

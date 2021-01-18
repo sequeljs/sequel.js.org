@@ -12,7 +12,7 @@ databases in JavaScript applications.
 
 `@sequeljs/ast` is a SQL AST manager for JavaScript.
 
-Check out the [Documentation](ast/api/README) or the
+Check out the [Documentation](ast/api) or the
 [Source Code](https://github.com/sequeljs/ast)
 
 ### @sequeljs/omi
@@ -20,7 +20,7 @@ Check out the [Documentation](ast/api/README) or the
 `@sequeljs/omi` is a collection of interfaces (under development) for model
 classes in JavaScript.
 
-Check out the [Documentation](omi/api/README) or the
+Check out the [Documentation](omi/api) or the
 [Source Code](https://github.com/sequeljs/omi)
 
 ### @sequeljs/orm
@@ -28,5 +28,5 @@ Check out the [Documentation](omi/api/README) or the
 `@sequeljs/orm` is an (under development) ORM built on top of
 [@sequeljs/ast](#sequeljs-ast).
 
-Check out the [Documentation](orm/api/README) or the
+Check out the [Documentation](orm/api) or the
 [Source Code](https://github.com/sequeljs/orm)

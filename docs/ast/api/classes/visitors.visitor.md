@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Visitors](../modules/visitors.md) / Visitor
+---
+id: 'visitors.visitor'
+title: 'Class: Visitor'
+sidebar_label: 'Visitor'
+hide_title: true
+---
 
 # Class: Visitor
 
@@ -10,17 +14,6 @@
 - **Visitor**
 
   ↳ [_ToSQL_](visitors.tosql.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](visitors.visitor.md#constructor)
-
-### Methods
-
-- [accept](visitors.visitor.md#accept)
-- [visit](visitors.visitor.md#visit)
 
 ## Constructors
 
@@ -56,8 +49,7 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 
 **Returns:** T
 
-Defined in:
-[src/visitors/Visitor.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L11)
+Defined in: @sequeljs/ast/src/visitors/Visitor.ts:11
 
 ---
 
@@ -85,5 +77,4 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 
 **Returns:** T
 
-Defined in:
-[src/visitors/Visitor.ts:18](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L18)
+Defined in: @sequeljs/ast/src/visitors/Visitor.ts:18

@@ -1,8 +1,10 @@
 ---
-title: About
+id: 'index'
+title: '@sequeljs/ast'
+slug: '/ast/api'
+sidebar_label: 'About'
+hide_title: true
 ---
-
-@sequeljs/ast / [Exports](modules.md)
 
 # Sequel.js - AST
 

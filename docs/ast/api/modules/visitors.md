@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Visitors
+---
+id: 'visitors'
+title: 'Namespace: Visitors'
+sidebar_label: 'Visitors'
+hide_title: true
+---
 
 # Namespace: Visitors
 
@@ -11,11 +16,6 @@
 - [ToSQL](../classes/visitors.tosql.md)
 - [Visitor](../classes/visitors.visitor.md)
 - [WhereSQL](../classes/visitors.wheresql.md)
-
-### Type aliases
-
-- [VisitFunction](visitors.md#visitfunction)
-- [Visitable](visitors.md#visitable)
 
 ## Type aliases
 
@@ -30,8 +30,7 @@
 | ---- |
 | `T`  |
 
-Defined in:
-[src/visitors/VisitFunction.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/VisitFunction.ts#L5)
+Defined in: @sequeljs/ast/src/visitors/VisitFunction.ts:5
 
 ---
 
@@ -43,5 +42,4 @@ Defined in:
 [_SQLLiteral_](../classes/nodes.sqlliteral.md) \|
 [_SelectManager_](../classes/managers.selectmanager.md)
 
-Defined in:
-[src/visitors/Visitable.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitable.ts#L10)
+Defined in: @sequeljs/ast/src/visitors/Visitable.ts:10

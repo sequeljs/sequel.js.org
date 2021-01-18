@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Visitors](../modules/visitors.md) / PostgreSQL
+---
+id: 'visitors.postgresql'
+title: 'Class: PostgreSQL'
+sidebar_label: 'PostgreSQL'
+hide_title: true
+---
 
 # Class: PostgreSQL
 
@@ -10,155 +14,6 @@
 - [_ToSQL_](visitors.tosql.md)
 
   ↳ **PostgreSQL**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](visitors.postgresql.md#constructor)
-
-### Properties
-
-- [connection](visitors.postgresql.md#connection)
-
-### Methods
-
-- [accept](visitors.postgresql.md#accept)
-- [aggregate](visitors.postgresql.md#aggregate)
-- [collectInClause](visitors.postgresql.md#collectinclause)
-- [collectNodesFor](visitors.postgresql.md#collectnodesfor)
-- [collectNotInClause](visitors.postgresql.md#collectnotinclause)
-- [collectOptimizerHints](visitors.postgresql.md#collectoptimizerhints)
-- [compile](visitors.postgresql.md#compile)
-- [groupingArrayOrGroupingElement](visitors.postgresql.md#groupingarrayorgroupingelement)
-- [groupingParentheses](visitors.postgresql.md#groupingparentheses)
-- [hasJoinSources](visitors.postgresql.md#hasjoinsources)
-- [hasLimitOrOffsetOrOrders](visitors.postgresql.md#haslimitoroffsetororders)
-- [infixValue](visitors.postgresql.md#infixvalue)
-- [infixValueWithParen](visitors.postgresql.md#infixvaluewithparen)
-- [injectJoin](visitors.postgresql.md#injectjoin)
-- [isDistinctFrom](visitors.postgresql.md#isdistinctfrom)
-- [isUnboundable](visitors.postgresql.md#isunboundable)
-- [literal](visitors.postgresql.md#literal)
-- [maybeVisit](visitors.postgresql.md#maybevisit)
-- [prepareDeleteStatement](visitors.postgresql.md#preparedeletestatement)
-- [prepareDeleteUpdateStatement](visitors.postgresql.md#preparedeleteupdatestatement)
-- [prepareUpdateStatement](visitors.postgresql.md#prepareupdatestatement)
-- [quote](visitors.postgresql.md#quote)
-- [quoteColumnName](visitors.postgresql.md#quotecolumnname)
-- [quoteTableName](visitors.postgresql.md#quotetablename)
-- [quoted](visitors.postgresql.md#quoted)
-- [sanitizeAsSQLComment](visitors.postgresql.md#sanitizeassqlcomment)
-- [unsupported](visitors.postgresql.md#unsupported)
-- [visit](visitors.postgresql.md#visit)
-- [visitAddition](visitors.postgresql.md#visitaddition)
-- [visitAnd](visitors.postgresql.md#visitand)
-- [visitArray](visitors.postgresql.md#visitarray)
-- [visitAs](visitors.postgresql.md#visitas)
-- [visitAscending](visitors.postgresql.md#visitascending)
-- [visitAssignment](visitors.postgresql.md#visitassignment)
-- [visitAttributesAttribute](visitors.postgresql.md#visitattributesattribute)
-- [visitAttributesBoolean](visitors.postgresql.md#visitattributesboolean)
-- [visitAttributesDecimal](visitors.postgresql.md#visitattributesdecimal)
-- [visitAttributesFloat](visitors.postgresql.md#visitattributesfloat)
-- [visitAttributesInteger](visitors.postgresql.md#visitattributesinteger)
-- [visitAttributesString](visitors.postgresql.md#visitattributesstring)
-- [visitAttributesTime](visitors.postgresql.md#visitattributestime)
-- [visitAvg](visitors.postgresql.md#visitavg)
-- [visitBetween](visitors.postgresql.md#visitbetween)
-- [visitBigInt](visitors.postgresql.md#visitbigint)
-- [visitBin](visitors.postgresql.md#visitbin)
-- [visitBindParam](visitors.postgresql.md#visitbindparam)
-- [visitBoolean](visitors.postgresql.md#visitboolean)
-- [visitCase](visitors.postgresql.md#visitcase)
-- [visitCasted](visitors.postgresql.md#visitcasted)
-- [visitComment](visitors.postgresql.md#visitcomment)
-- [visitCount](visitors.postgresql.md#visitcount)
-- [visitCube](visitors.postgresql.md#visitcube)
-- [visitCurrentRow](visitors.postgresql.md#visitcurrentrow)
-- [visitDate](visitors.postgresql.md#visitdate)
-- [visitDeleteStatement](visitors.postgresql.md#visitdeletestatement)
-- [visitDescending](visitors.postgresql.md#visitdescending)
-- [visitDistinct](visitors.postgresql.md#visitdistinct)
-- [visitDistinctOn](visitors.postgresql.md#visitdistincton)
-- [visitDivision](visitors.postgresql.md#visitdivision)
-- [visitDoesNotMatch](visitors.postgresql.md#visitdoesnotmatch)
-- [visitElse](visitors.postgresql.md#visitelse)
-- [visitEquality](visitors.postgresql.md#visitequality)
-- [visitExcept](visitors.postgresql.md#visitexcept)
-- [visitExists](visitors.postgresql.md#visitexists)
-- [visitExtract](visitors.postgresql.md#visitextract)
-- [visitFalse](visitors.postgresql.md#visitfalse)
-- [visitFollowing](visitors.postgresql.md#visitfollowing)
-- [visitFullOuterJoin](visitors.postgresql.md#visitfullouterjoin)
-- [visitGreaterThan](visitors.postgresql.md#visitgreaterthan)
-- [visitGreaterThanOrEqual](visitors.postgresql.md#visitgreaterthanorequal)
-- [visitGroup](visitors.postgresql.md#visitgroup)
-- [visitGrouping](visitors.postgresql.md#visitgrouping)
-- [visitGroupingElement](visitors.postgresql.md#visitgroupingelement)
-- [visitGroupingSet](visitors.postgresql.md#visitgroupingset)
-- [visitIn](visitors.postgresql.md#visitin)
-- [visitInfixOperation](visitors.postgresql.md#visitinfixoperation)
-- [visitInnerJoin](visitors.postgresql.md#visitinnerjoin)
-- [visitInsertStatement](visitors.postgresql.md#visitinsertstatement)
-- [visitIntersect](visitors.postgresql.md#visitintersect)
-- [visitIsDistinctFrom](visitors.postgresql.md#visitisdistinctfrom)
-- [visitIsNotDistinctFrom](visitors.postgresql.md#visitisnotdistinctfrom)
-- [visitJoinSource](visitors.postgresql.md#visitjoinsource)
-- [visitLateral](visitors.postgresql.md#visitlateral)
-- [visitLessThan](visitors.postgresql.md#visitlessthan)
-- [visitLessThanOrEqual](visitors.postgresql.md#visitlessthanorequal)
-- [visitLimit](visitors.postgresql.md#visitlimit)
-- [visitLock](visitors.postgresql.md#visitlock)
-- [visitMatches](visitors.postgresql.md#visitmatches)
-- [visitMax](visitors.postgresql.md#visitmax)
-- [visitMin](visitors.postgresql.md#visitmin)
-- [visitMultiplication](visitors.postgresql.md#visitmultiplication)
-- [visitNamedSQLFunction](visitors.postgresql.md#visitnamedsqlfunction)
-- [visitNamedWindow](visitors.postgresql.md#visitnamedwindow)
-- [visitNot](visitors.postgresql.md#visitnot)
-- [visitNotEqual](visitors.postgresql.md#visitnotequal)
-- [visitNotIn](visitors.postgresql.md#visitnotin)
-- [visitNotRegexp](visitors.postgresql.md#visitnotregexp)
-- [visitNull](visitors.postgresql.md#visitnull)
-- [visitNullsFirst](visitors.postgresql.md#visitnullsfirst)
-- [visitNullsLast](visitors.postgresql.md#visitnullslast)
-- [visitNumber](visitors.postgresql.md#visitnumber)
-- [visitOffset](visitors.postgresql.md#visitoffset)
-- [visitOn](visitors.postgresql.md#visiton)
-- [visitOptimizerHints](visitors.postgresql.md#visitoptimizerhints)
-- [visitOr](visitors.postgresql.md#visitor)
-- [visitOuterJoin](visitors.postgresql.md#visitouterjoin)
-- [visitOver](visitors.postgresql.md#visitover)
-- [visitPreceding](visitors.postgresql.md#visitpreceding)
-- [visitQuoted](visitors.postgresql.md#visitquoted)
-- [visitRange](visitors.postgresql.md#visitrange)
-- [visitRegexp](visitors.postgresql.md#visitregexp)
-- [visitRightOuterJoin](visitors.postgresql.md#visitrightouterjoin)
-- [visitRollUp](visitors.postgresql.md#visitrollup)
-- [visitRows](visitors.postgresql.md#visitrows)
-- [visitSQLLiteral](visitors.postgresql.md#visitsqlliteral)
-- [visitSelectCore](visitors.postgresql.md#visitselectcore)
-- [visitSelectManager](visitors.postgresql.md#visitselectmanager)
-- [visitSelectStatement](visitors.postgresql.md#visitselectstatement)
-- [visitString](visitors.postgresql.md#visitstring)
-- [visitStringJoin](visitors.postgresql.md#visitstringjoin)
-- [visitSubtraction](visitors.postgresql.md#visitsubtraction)
-- [visitSum](visitors.postgresql.md#visitsum)
-- [visitSymbol](visitors.postgresql.md#visitsymbol)
-- [visitTable](visitors.postgresql.md#visittable)
-- [visitTableAlias](visitors.postgresql.md#visittablealias)
-- [visitTrue](visitors.postgresql.md#visittrue)
-- [visitUnaryOperation](visitors.postgresql.md#visitunaryoperation)
-- [visitUnion](visitors.postgresql.md#visitunion)
-- [visitUnionAll](visitors.postgresql.md#visitunionall)
-- [visitUnqualifiedColumn](visitors.postgresql.md#visitunqualifiedcolumn)
-- [visitUpdateStatement](visitors.postgresql.md#visitupdatestatement)
-- [visitValuesList](visitors.postgresql.md#visitvalueslist)
-- [visitWhen](visitors.postgresql.md#visitwhen)
-- [visitWindow](visitors.postgresql.md#visitwindow)
-- [visitWith](visitors.postgresql.md#visitwith)
-- [visitWithRecursive](visitors.postgresql.md#visitwithrecursive)
 
 ## Constructors
 
@@ -178,8 +33,7 @@
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:154](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L154)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:154
 
 ## Properties
 
@@ -190,8 +44,7 @@ Defined in:
 Inherited from:
 [ToSQL](visitors.tosql.md).[connection](visitors.tosql.md#connection)
 
-Defined in:
-[src/visitors/ToSQL.ts:154](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L154)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:154
 
 ## Methods
 
@@ -221,8 +74,7 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/Visitor.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L11)
+Defined in: @sequeljs/ast/src/visitors/Visitor.ts:11
 
 ---
 
@@ -245,8 +97,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:169](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L169)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:169
 
 ---
 
@@ -274,8 +125,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:191](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L191)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:191
 
 ---
 
@@ -300,8 +150,7 @@ _string_, `connector?`: _string_):
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:206](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L206)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:206
 
 ---
 
@@ -329,8 +178,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:222](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L222)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:222
 
 ---
 
@@ -352,8 +200,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:237](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L237)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:237
 
 ---
 
@@ -374,8 +221,7 @@ _string_[]\>): _string_ \| _string_[]
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:162](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L162)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:162
 
 ---
 
@@ -395,8 +241,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:24](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L24)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:24
 
 ---
 
@@ -415,8 +260,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:41](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L41)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:41
 
 ---
 
@@ -434,8 +278,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:248](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L248)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:248
 
 ---
 
@@ -455,8 +298,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:254](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L254)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:254
 
 ---
 
@@ -478,8 +320,7 @@ _string_): [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:260](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L260)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:260
 
 ---
 
@@ -503,8 +344,7 @@ _any_\>, `col`: [_Collector_](../interfaces/collectors.collector.md)<_string_\>,
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:274](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L274)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:274
 
 ---
 
@@ -527,8 +367,7 @@ _string_): [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:307](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L307)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:307
 
 ---
 
@@ -551,8 +390,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:324](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L324)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:324
 
 ---
 
@@ -570,8 +408,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:344](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L344)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:344
 
 ---
 
@@ -593,8 +430,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:348](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L348)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:348
 
 ---
 
@@ -616,8 +452,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:352](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L352)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:352
 
 ---
 
@@ -637,8 +472,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:406](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L406)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:406
 
 ---
 
@@ -658,8 +492,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:365](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L365)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:365
 
 ▸ `Protected`**prepareDeleteUpdateStatement**(`thing`:
 [_UpdateStatement_](nodes.updatestatement.md)):
@@ -675,8 +508,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:368](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L368)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:368
 
 ---
 
@@ -696,8 +528,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:410](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L410)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:410
 
 ---
 
@@ -716,8 +547,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:414](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L414)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:414
 
 ---
 
@@ -736,8 +566,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:422](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L422)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:422
 
 ---
 
@@ -756,8 +585,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:430](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L430)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:430
 
 ---
 
@@ -778,8 +606,7 @@ _string_ \| _number_
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:438](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L438)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:438
 
 ---
 
@@ -798,8 +625,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:453](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L453)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:453
 
 ---
 
@@ -820,8 +646,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:461](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L461)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:461
 
 ---
 
@@ -851,8 +676,7 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/Visitor.ts:18](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L18)
+Defined in: @sequeljs/ast/src/visitors/Visitor.ts:18
 
 ---
 
@@ -873,8 +697,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:465](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L465)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:465
 
 ---
 
@@ -895,8 +718,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:469](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L469)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:469
 
 ---
 
@@ -918,8 +740,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:473](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L473)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:473
 
 ---
 
@@ -940,8 +761,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:477](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L477)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:477
 
 ---
 
@@ -962,8 +782,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:487](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L487)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:487
 
 ---
 
@@ -984,8 +803,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:491](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L491)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:491
 
 ---
 
@@ -1007,8 +825,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:509](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L509)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:509
 
 ---
 
@@ -1030,8 +847,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:533](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L533)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:533
 
 ---
 
@@ -1053,8 +869,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:540](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L540)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:540
 
 ---
 
@@ -1075,8 +890,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:547](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L547)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:547
 
 ---
 
@@ -1098,8 +912,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:554](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L554)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:554
 
 ---
 
@@ -1121,8 +934,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:561](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L561)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:561
 
 ---
 
@@ -1143,8 +955,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:568](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L568)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:568
 
 ---
 
@@ -1165,8 +976,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:575](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L575)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:575
 
 ---
 
@@ -1187,8 +997,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:579](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L579)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:579
 
 ---
 
@@ -1209,8 +1018,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:589](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L589)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:589
 
 ---
 
@@ -1231,8 +1039,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:593](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L593)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:593
 
 ---
 
@@ -1253,8 +1060,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:55](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L55)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:55
 
 ---
 
@@ -1275,8 +1081,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:601](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L601)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:601
 
 ---
 
@@ -1297,8 +1102,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:605](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L605)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:605
 
 ---
 
@@ -1319,8 +1123,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:630](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L630)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:630
 
 ---
 
@@ -1341,8 +1144,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:634](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L634)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:634
 
 ---
 
@@ -1363,8 +1165,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:645](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L645)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:645
 
 ---
 
@@ -1383,8 +1184,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:63](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L63)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:63
 
 ---
 
@@ -1405,8 +1205,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:649](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L649)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:649
 
 ---
 
@@ -1427,8 +1226,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:653](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L653)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:653
 
 ---
 
@@ -1450,8 +1248,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:657](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L657)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:657
 
 ---
 
@@ -1472,8 +1269,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:677](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L677)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:677
 
 ---
 
@@ -1494,8 +1290,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:681](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L681)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:681
 
 ---
 
@@ -1516,8 +1311,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:73](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L73)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:73
 
 ---
 
@@ -1538,8 +1332,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:691](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L691)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:691
 
 ---
 
@@ -1561,8 +1354,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:83](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L83)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:83
 
 ---
 
@@ -1583,8 +1375,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:710](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L710)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:710
 
 ---
 
@@ -1606,8 +1397,7 @@ _any_\>, `col`:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:719](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L719)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:719
 
 ---
 
@@ -1628,8 +1418,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:745](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L745)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:745
 
 ---
 
@@ -1650,8 +1439,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:755](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L755)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:755
 
 ---
 
@@ -1672,8 +1460,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:770](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L770)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:770
 
 ---
 
@@ -1694,8 +1481,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:782](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L782)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:782
 
 ---
 
@@ -1716,8 +1502,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:786](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L786)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:786
 
 ---
 
@@ -1739,8 +1524,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:798](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L798)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:798
 
 ---
 
@@ -1762,8 +1546,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:812](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L812)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:812
 
 ---
 
@@ -1785,8 +1568,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:822](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L822)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:822
 
 ---
 
@@ -1807,8 +1589,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:835](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L835)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:835
 
 ---
 
@@ -1829,8 +1610,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:839](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L839)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:839
 
 ---
 
@@ -1850,8 +1630,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:99](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L99)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:99
 
 ---
 
@@ -1871,8 +1650,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:112](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L112)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:112
 
 ---
 
@@ -1893,8 +1671,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:853](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L853)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:853
 
 ---
 
@@ -1916,8 +1693,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:894](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L894)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:894
 
 ---
 
@@ -1938,8 +1714,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:907](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L907)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:907
 
 ---
 
@@ -1961,8 +1736,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:921](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L921)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:921
 
 ---
 
@@ -1983,8 +1757,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:957](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L957)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:957
 
 ---
 
@@ -2006,8 +1779,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:122](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L122)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:122
 
 ---
 
@@ -2029,8 +1801,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:135](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L135)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:135
 
 ---
 
@@ -2051,8 +1822,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1013](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1013)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1013
 
 ---
 
@@ -2071,8 +1841,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:148](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L148)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:148
 
 ---
 
@@ -2093,8 +1862,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1031](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1031)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1031
 
 ---
 
@@ -2116,8 +1884,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1041](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1041)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1041
 
 ---
 
@@ -2138,8 +1905,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1054](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1054)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1054
 
 ---
 
@@ -2160,8 +1926,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1063](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1063)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1063
 
 ---
 
@@ -2182,8 +1947,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:158](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L158)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:158
 
 ---
 
@@ -2204,8 +1968,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1082](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1082)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1082
 
 ---
 
@@ -2226,8 +1989,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1086](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1086)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1086
 
 ---
 
@@ -2249,8 +2011,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1090](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1090)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1090
 
 ---
 
@@ -2272,8 +2033,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1097](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1097)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1097
 
 ---
 
@@ -2295,8 +2055,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1118](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1118)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1118
 
 ---
 
@@ -2317,8 +2076,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1128](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1128)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1128
 
 ---
 
@@ -2339,8 +2097,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1138](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1138)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1138
 
 ---
 
@@ -2361,8 +2118,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1164](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1164)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1164
 
 ---
 
@@ -2383,8 +2139,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:174](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L174)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:174
 
 ---
 
@@ -2405,8 +2160,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1213](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1213)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1213
 
 ---
 
@@ -2425,8 +2179,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:184](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L184)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:184
 
 ---
 
@@ -2445,8 +2198,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:188](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L188)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:188
 
 ---
 
@@ -2467,8 +2219,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1209](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1209)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1209
 
 ---
 
@@ -2489,8 +2240,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1217](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1217)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1217
 
 ---
 
@@ -2511,8 +2261,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1226](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1226)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1226
 
 ---
 
@@ -2534,8 +2283,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1235](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1235)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1235
 
 ---
 
@@ -2556,8 +2304,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1249](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1249)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1249
 
 ---
 
@@ -2578,8 +2325,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1259](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1259)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1259
 
 ---
 
@@ -2600,8 +2346,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1270](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1270)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1270
 
 ---
 
@@ -2622,8 +2367,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1288](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1288)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1288
 
 ---
 
@@ -2644,8 +2388,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1300](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1300)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1300
 
 ---
 
@@ -2666,8 +2409,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1304](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1304)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1304
 
 ---
 
@@ -2688,8 +2430,7 @@ Defined in:
 
 Overrides: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/PostgreSQL.ts:192](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L192)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:192
 
 ---
 
@@ -2711,8 +2452,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1323](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1323)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1323
 
 ---
 
@@ -2731,8 +2471,7 @@ Defined in:
 
 **Returns:** [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-Defined in:
-[src/visitors/PostgreSQL.ts:202](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/PostgreSQL.ts#L202)
+Defined in: @sequeljs/ast/src/visitors/PostgreSQL.ts:202
 
 ---
 
@@ -2753,8 +2492,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1337](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1337)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1337
 
 ---
 
@@ -2775,8 +2513,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1443](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1443)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1443
 
 ---
 
@@ -2797,8 +2534,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1352](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1352)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1352
 
 ---
 
@@ -2820,8 +2556,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1395](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1395)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1395
 
 ---
 
@@ -2843,8 +2578,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1408](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1408)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1408
 
 ---
 
@@ -2865,8 +2599,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1447](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1447)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1447
 
 ---
 
@@ -2887,8 +2620,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1451](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1451)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1451
 
 ---
 
@@ -2910,8 +2642,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1455](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1455)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1455
 
 ---
 
@@ -2932,8 +2663,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1459](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1459)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1459
 
 ---
 
@@ -2954,8 +2684,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1463](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1463)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1463
 
 ---
 
@@ -2976,8 +2705,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1467](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1467)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1467
 
 ---
 
@@ -2998,8 +2726,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1479](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1479)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1479
 
 ---
 
@@ -3020,8 +2747,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1489](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1489)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1489
 
 ---
 
@@ -3043,8 +2769,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1493](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1493)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1493
 
 ---
 
@@ -3065,8 +2790,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1505](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1505)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1505
 
 ---
 
@@ -3087,8 +2811,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1513](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1513)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1513
 
 ---
 
@@ -3110,8 +2833,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1521](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1521)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1521
 
 ---
 
@@ -3133,8 +2855,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1528](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1528)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1528
 
 ---
 
@@ -3155,8 +2876,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1549](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1549)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1549
 
 ---
 
@@ -3177,8 +2897,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1578](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1578)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1578
 
 ---
 
@@ -3199,8 +2918,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1589](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1589)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1589
 
 ---
 
@@ -3221,8 +2939,7 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1620](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1620)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1620
 
 ---
 
@@ -3244,5 +2961,4 @@ Defined in:
 
 Inherited from: [ToSQL](visitors.tosql.md)
 
-Defined in:
-[src/visitors/ToSQL.ts:1629](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/ToSQL.ts#L1629)
+Defined in: @sequeljs/ast/src/visitors/ToSQL.ts:1629

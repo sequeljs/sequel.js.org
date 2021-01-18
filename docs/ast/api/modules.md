@@ -1,8 +1,9 @@
 ---
-title: API Reference
+id: 'modules'
+title: '@sequeljs/ast'
+sidebar_label: 'Table of contents'
+hide_title: true
 ---
-
-[@sequeljs/ast](README.md) / Exports
 
 # @sequeljs/ast
 
@@ -22,10 +23,6 @@ title: API Reference
 
 - [Table](classes/table.md)
 
-### Variables
-
-- [SequelAST](modules.md#sequelast)
-
 ## Variables
 
 ### SequelAST
@@ -38,5 +35,4 @@ title: API Reference
 | -------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | `engine` | [_Engine_](interfaces/interfaces.engine.md) \| _null_ | [_Engine_](interfaces/interfaces.engine.md) \| _null_ |
 
-Defined in:
-[src/SequelAST.ts:3](https://github.com/sequeljs/ast/blob/8de61b1/src/SequelAST.ts#L3)
+Defined in: @sequeljs/ast/src/SequelAST.ts:3

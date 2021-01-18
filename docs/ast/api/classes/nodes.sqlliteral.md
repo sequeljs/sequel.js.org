@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Nodes](../modules/nodes.md) / SQLLiteral
+---
+id: 'nodes.sqlliteral'
+title: 'Class: SQLLiteral'
+sidebar_label: 'SQLLiteral'
+hide_title: true
+---
 
 # Class: SQLLiteral
 
@@ -21,119 +25,6 @@
 
   ↳ **SQLLiteral**
 
-## Table of contents
-
-### Constructors
-
-- [constructor](nodes.sqlliteral.md#constructor)
-
-### Properties
-
-- [length](nodes.sqlliteral.md#length)
-
-### Methods
-
-- [[Symbol.iterator]](nodes.sqlliteral.md#[symbol.iterator])
-- [anchor](nodes.sqlliteral.md#anchor)
-- [as](nodes.sqlliteral.md#as)
-- [asc](nodes.sqlliteral.md#asc)
-- [average](nodes.sqlliteral.md#average)
-- [between](nodes.sqlliteral.md#between)
-- [big](nodes.sqlliteral.md#big)
-- [blink](nodes.sqlliteral.md#blink)
-- [bold](nodes.sqlliteral.md#bold)
-- [charAt](nodes.sqlliteral.md#charat)
-- [charCodeAt](nodes.sqlliteral.md#charcodeat)
-- [codePointAt](nodes.sqlliteral.md#codepointat)
-- [concat](nodes.sqlliteral.md#concat)
-- [count](nodes.sqlliteral.md#count)
-- [desc](nodes.sqlliteral.md#desc)
-- [doesNotMatch](nodes.sqlliteral.md#doesnotmatch)
-- [doesNotMatchAll](nodes.sqlliteral.md#doesnotmatchall)
-- [doesNotMatchAny](nodes.sqlliteral.md#doesnotmatchany)
-- [doesNotMatchRegexp](nodes.sqlliteral.md#doesnotmatchregexp)
-- [endsWith](nodes.sqlliteral.md#endswith)
-- [eq](nodes.sqlliteral.md#eq)
-- [eqAll](nodes.sqlliteral.md#eqall)
-- [eqAny](nodes.sqlliteral.md#eqany)
-- [extract](nodes.sqlliteral.md#extract)
-- [fixed](nodes.sqlliteral.md#fixed)
-- [fontcolor](nodes.sqlliteral.md#fontcolor)
-- [fontsize](nodes.sqlliteral.md#fontsize)
-- [fromCharCode](nodes.sqlliteral.md#fromcharcode)
-- [fromCodePoint](nodes.sqlliteral.md#fromcodepoint)
-- [groupingAll](nodes.sqlliteral.md#groupingall)
-- [groupingAny](nodes.sqlliteral.md#groupingany)
-- [gt](nodes.sqlliteral.md#gt)
-- [gtAll](nodes.sqlliteral.md#gtall)
-- [gtAny](nodes.sqlliteral.md#gtany)
-- [gteq](nodes.sqlliteral.md#gteq)
-- [gteqAll](nodes.sqlliteral.md#gteqall)
-- [gteqAny](nodes.sqlliteral.md#gteqany)
-- [inAll](nodes.sqlliteral.md#inall)
-- [inAny](nodes.sqlliteral.md#inany)
-- [inVal](nodes.sqlliteral.md#inval)
-- [includes](nodes.sqlliteral.md#includes)
-- [indexOf](nodes.sqlliteral.md#indexof)
-- [isDistinctFrom](nodes.sqlliteral.md#isdistinctfrom)
-- [isInfinity](nodes.sqlliteral.md#isinfinity)
-- [isNotDistinctFrom](nodes.sqlliteral.md#isnotdistinctfrom)
-- [isOpenEnded](nodes.sqlliteral.md#isopenended)
-- [isUnboundable](nodes.sqlliteral.md#isunboundable)
-- [italics](nodes.sqlliteral.md#italics)
-- [lastIndexOf](nodes.sqlliteral.md#lastindexof)
-- [link](nodes.sqlliteral.md#link)
-- [localeCompare](nodes.sqlliteral.md#localecompare)
-- [lt](nodes.sqlliteral.md#lt)
-- [ltAll](nodes.sqlliteral.md#ltall)
-- [ltAny](nodes.sqlliteral.md#ltany)
-- [lteq](nodes.sqlliteral.md#lteq)
-- [lteqAll](nodes.sqlliteral.md#lteqall)
-- [lteqAny](nodes.sqlliteral.md#lteqany)
-- [match](nodes.sqlliteral.md#match)
-- [matches](nodes.sqlliteral.md#matches)
-- [matchesAll](nodes.sqlliteral.md#matchesall)
-- [matchesAny](nodes.sqlliteral.md#matchesany)
-- [matchesRegexp](nodes.sqlliteral.md#matchesregexp)
-- [maximum](nodes.sqlliteral.md#maximum)
-- [minimum](nodes.sqlliteral.md#minimum)
-- [normalize](nodes.sqlliteral.md#normalize)
-- [notBetween](nodes.sqlliteral.md#notbetween)
-- [notEq](nodes.sqlliteral.md#noteq)
-- [notEqAll](nodes.sqlliteral.md#noteqall)
-- [notEqAny](nodes.sqlliteral.md#noteqany)
-- [notInAll](nodes.sqlliteral.md#notinall)
-- [notInAny](nodes.sqlliteral.md#notinany)
-- [notInVal](nodes.sqlliteral.md#notinval)
-- [padEnd](nodes.sqlliteral.md#padend)
-- [padStart](nodes.sqlliteral.md#padstart)
-- [quotedArray](nodes.sqlliteral.md#quotedarray)
-- [quotedNode](nodes.sqlliteral.md#quotednode)
-- [raw](nodes.sqlliteral.md#raw)
-- [repeat](nodes.sqlliteral.md#repeat)
-- [replace](nodes.sqlliteral.md#replace)
-- [search](nodes.sqlliteral.md#search)
-- [slice](nodes.sqlliteral.md#slice)
-- [small](nodes.sqlliteral.md#small)
-- [split](nodes.sqlliteral.md#split)
-- [startsWith](nodes.sqlliteral.md#startswith)
-- [strike](nodes.sqlliteral.md#strike)
-- [sub](nodes.sqlliteral.md#sub)
-- [substr](nodes.sqlliteral.md#substr)
-- [substring](nodes.sqlliteral.md#substring)
-- [sum](nodes.sqlliteral.md#sum)
-- [sup](nodes.sqlliteral.md#sup)
-- [toLocaleLowerCase](nodes.sqlliteral.md#tolocalelowercase)
-- [toLocaleUpperCase](nodes.sqlliteral.md#tolocaleuppercase)
-- [toLowerCase](nodes.sqlliteral.md#tolowercase)
-- [toString](nodes.sqlliteral.md#tostring)
-- [toUpperCase](nodes.sqlliteral.md#touppercase)
-- [trim](nodes.sqlliteral.md#trim)
-- [trimLeft](nodes.sqlliteral.md#trimleft)
-- [trimRight](nodes.sqlliteral.md#trimright)
-- [valueOf](nodes.sqlliteral.md#valueof)
-- [when](nodes.sqlliteral.md#when)
-
 ## Constructors
 
 ### constructor
@@ -148,7 +39,7 @@
 
 **Returns:** [_SQLLiteral_](nodes.sqlliteral.md)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:517
+Defined in: typescript/lib/lib.es5.d.ts:517
 
 ## Properties
 
@@ -158,7 +49,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:517
 
 Returns the length of a String object.
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:501
+Defined in: typescript/lib/lib.es5.d.ts:501
 
 ## Methods
 
@@ -170,7 +61,7 @@ Iterator
 
 **Returns:** _IterableIterator_<_string_\>
 
-Defined in: node_modules/typescript/lib/lib.es2015.iterable.d.ts:247
+Defined in: typescript/lib/lib.es2015.iterable.d.ts:247
 
 ---
 
@@ -189,7 +80,7 @@ value
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:460
+Defined in: typescript/lib/lib.es2015.core.d.ts:460
 
 ---
 
@@ -206,8 +97,7 @@ Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:460
 
 **Returns:** [_As_](nodes.as.md)
 
-Defined in:
-[src/mixins/AliasPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/AliasPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/AliasPredication.ts:5
 
 ---
 
@@ -217,8 +107,7 @@ Defined in:
 
 **Returns:** [_Ascending_](nodes.ascending.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L7)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:7
 
 ---
 
@@ -228,8 +117,7 @@ Defined in:
 
 **Returns:** [_Avg_](nodes.avg.md)
 
-Defined in:
-[src/mixins/Expressions.ts:9](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L9)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:9
 
 ---
 
@@ -256,8 +144,7 @@ _boolean_): [_GreaterThanOrEqual_](nodes.greaterthanorequal.md) \|
 \| [_NotIn_](nodes.notin.md) \| [_And_](nodes.and.md) \|
 [_Between_](nodes.between.md)
 
-Defined in:
-[src/mixins/Predications.ts:257](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L257)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:257
 
 ---
 
@@ -269,7 +156,7 @@ Returns a `<big>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:463
+Defined in: typescript/lib/lib.es2015.core.d.ts:463
 
 ---
 
@@ -281,7 +168,7 @@ Returns a `<blink>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:466
+Defined in: typescript/lib/lib.es2015.core.d.ts:466
 
 ---
 
@@ -293,7 +180,7 @@ Returns a `<b>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:469
+Defined in: typescript/lib/lib.es2015.core.d.ts:469
 
 ---
 
@@ -311,7 +198,7 @@ Returns the character at the specified index.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:402
+Defined in: typescript/lib/lib.es5.d.ts:402
 
 ---
 
@@ -329,7 +216,7 @@ Returns the Unicode value of the character at the specified location.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:408
+Defined in: typescript/lib/lib.es5.d.ts:408
 
 ---
 
@@ -351,7 +238,7 @@ UTF-16 surrogate pair does not begin at pos, the result is the code unit at pos.
 
 **Returns:** _undefined_ \| _number_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:408
+Defined in: typescript/lib/lib.es2015.core.d.ts:408
 
 ---
 
@@ -369,7 +256,7 @@ Returns a string that contains the concatenation of two or more strings.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:414
+Defined in: typescript/lib/lib.es5.d.ts:414
 
 ---
 
@@ -385,8 +272,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:414
 
 **Returns:** [_Count_](nodes.count.md)
 
-Defined in:
-[src/mixins/Expressions.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:13
 
 ---
 
@@ -396,8 +282,7 @@ Defined in:
 
 **Returns:** [_Descending_](nodes.descending.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:11
 
 ---
 
@@ -416,8 +301,7 @@ _boolean_): [_DoesNotMatch_](nodes.doesnotmatch.md)
 
 **Returns:** [_DoesNotMatch_](nodes.doesnotmatch.md)
 
-Defined in:
-[src/mixins/Predications.ts:57](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L57)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:57
 
 ---
 
@@ -436,8 +320,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:65](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L65)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:65
 
 ---
 
@@ -456,8 +339,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:78](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L78)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:78
 
 ---
 
@@ -475,8 +357,7 @@ Defined in:
 
 **Returns:** [_NotRegexp_](nodes.notregexp.md)
 
-Defined in:
-[src/mixins/Predications.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:91
 
 ---
 
@@ -497,7 +378,7 @@ starting at endPosition – length(this). Otherwise returns false.
 
 **Returns:** _boolean_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:424
+Defined in: typescript/lib/lib.es2015.core.d.ts:424
 
 ---
 
@@ -513,8 +394,7 @@ Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:424
 
 **Returns:** [_Equality_](nodes.equality.md)<_any_, _any_\>
 
-Defined in:
-[src/mixins/Predications.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:95
 
 ---
 
@@ -530,8 +410,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:99](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L99)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:99
 
 ---
 
@@ -547,8 +426,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:103](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L103)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:103
 
 ---
 
@@ -564,8 +442,7 @@ Defined in:
 
 **Returns:** [_Extract_](nodes.extract.md)
 
-Defined in:
-[src/mixins/Expressions.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L17)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:17
 
 ---
 
@@ -577,7 +454,7 @@ Returns a `<tt>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:472
+Defined in: typescript/lib/lib.es2015.core.d.ts:472
 
 ---
 
@@ -595,7 +472,7 @@ Returns a `<font>` HTML element and sets the color attribute value
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:475
+Defined in: typescript/lib/lib.es2015.core.d.ts:475
 
 ---
 
@@ -613,7 +490,7 @@ Returns a `<font>` HTML element and sets the size attribute value
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:478
+Defined in: typescript/lib/lib.es2015.core.d.ts:478
 
 ▸ **fontsize**(`size`: _string_): _string_
 
@@ -627,7 +504,7 @@ Returns a `<font>` HTML element and sets the size attribute value
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:481
+Defined in: typescript/lib/lib.es2015.core.d.ts:481
 
 ---
 
@@ -643,7 +520,7 @@ Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:481
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:521
+Defined in: typescript/lib/lib.es5.d.ts:521
 
 ---
 
@@ -662,7 +539,7 @@ elements. If length is 0, the empty string is returned.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:507
+Defined in: typescript/lib/lib.es2015.core.d.ts:507
 
 ---
 
@@ -681,8 +558,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:25
 
 ---
 
@@ -701,8 +577,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:35
 
 ---
 
@@ -718,8 +593,7 @@ Defined in:
 
 **Returns:** [_GreaterThan_](nodes.greaterthan.md)
 
-Defined in:
-[src/mixins/Predications.ts:107](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L107)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:107
 
 ---
 
@@ -735,8 +609,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:111](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L111)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:111
 
 ---
 
@@ -752,8 +625,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:115](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L115)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:115
 
 ---
 
@@ -769,8 +641,7 @@ Defined in:
 
 **Returns:** [_GreaterThanOrEqual_](nodes.greaterthanorequal.md)
 
-Defined in:
-[src/mixins/Predications.ts:119](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L119)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:119
 
 ---
 
@@ -786,8 +657,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:123](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L123)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:123
 
 ---
 
@@ -803,8 +673,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:127](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L127)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:127
 
 ---
 
@@ -820,8 +689,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:143](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L143)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:143
 
 ---
 
@@ -837,8 +705,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:147](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L147)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:147
 
 ---
 
@@ -854,8 +721,7 @@ Defined in:
 
 **Returns:** [_In_](nodes.in.md)
 
-Defined in:
-[src/mixins/Predications.ts:131](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L131)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:131
 
 ---
 
@@ -876,7 +742,7 @@ to position; otherwise, returns false.
 
 **Returns:** _boolean_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:417
+Defined in: typescript/lib/lib.es2015.core.d.ts:417
 
 ---
 
@@ -895,7 +761,7 @@ Returns the position of the first occurrence of a substring.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:421
+Defined in: typescript/lib/lib.es5.d.ts:421
 
 ---
 
@@ -912,8 +778,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:421
 
 **Returns:** [_IsDistinctFrom_](nodes.isdistinctfrom.md)
 
-Defined in:
-[src/mixins/Predications.ts:155](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L155)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:155
 
 ---
 
@@ -929,8 +794,7 @@ Defined in:
 
 **Returns:** _boolean_
 
-Defined in:
-[src/mixins/Predications.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L45)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:45
 
 ---
 
@@ -947,8 +811,7 @@ Defined in:
 
 **Returns:** [_IsNotDistinctFrom_](nodes.isnotdistinctfrom.md)
 
-Defined in:
-[src/mixins/Predications.ts:151](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L151)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:151
 
 ---
 
@@ -964,8 +827,7 @@ Defined in:
 
 **Returns:** _boolean_
 
-Defined in:
-[src/mixins/Predications.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:49
 
 ---
 
@@ -981,8 +843,7 @@ Defined in:
 
 **Returns:** _boolean_
 
-Defined in:
-[src/mixins/Predications.ts:53](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L53)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:53
 
 ---
 
@@ -994,7 +855,7 @@ Returns an `<i>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:484
+Defined in: typescript/lib/lib.es2015.core.d.ts:484
 
 ---
 
@@ -1013,7 +874,7 @@ Returns the last occurrence of a substring in the string.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:428
+Defined in: typescript/lib/lib.es5.d.ts:428
 
 ---
 
@@ -1031,7 +892,7 @@ Returns an `<a>` HTML element and sets the href attribute value
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:487
+Defined in: typescript/lib/lib.es2015.core.d.ts:487
 
 ---
 
@@ -1049,7 +910,7 @@ Determines whether two strings are equivalent in the current locale.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:434
+Defined in: typescript/lib/lib.es5.d.ts:434
 
 ▸ **localeCompare**(`that`: _string_, `locales?`: _string_ \| _string_[],
 `options?`: CollatorOptions): _number_
@@ -1067,7 +928,7 @@ locale.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:4391
+Defined in: typescript/lib/lib.es5.d.ts:4391
 
 ---
 
@@ -1083,8 +944,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:4391
 
 **Returns:** [_LessThan_](nodes.lessthan.md)
 
-Defined in:
-[src/mixins/Predications.ts:159](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L159)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:159
 
 ---
 
@@ -1100,8 +960,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:163](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L163)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:163
 
 ---
 
@@ -1117,8 +976,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:167](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L167)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:167
 
 ---
 
@@ -1134,8 +992,7 @@ Defined in:
 
 **Returns:** [_LessThanOrEqual_](nodes.lessthanorequal.md)
 
-Defined in:
-[src/mixins/Predications.ts:171](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L171)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:171
 
 ---
 
@@ -1151,8 +1008,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:175](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L175)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:175
 
 ---
 
@@ -1168,8 +1024,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:179](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L179)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:179
 
 ---
 
@@ -1188,7 +1043,7 @@ results of that search.
 
 **Returns:** _null_ \| _RegExpMatchArray_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:440
+Defined in: typescript/lib/lib.es5.d.ts:440
 
 ▸ **match**(`matcher`: { `[Symbol.match]`: (`string`: _string_) => _null_ \|
 _RegExpMatchArray_ }): _null_ \| _RegExpMatchArray_
@@ -1204,7 +1059,7 @@ an array containing the results of that search, or null if no matches are found.
 
 **Returns:** _null_ \| _RegExpMatchArray_
 
-Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:239
+Defined in: typescript/lib/lib.es2015.symbol.wellknown.d.ts:239
 
 ---
 
@@ -1223,8 +1078,7 @@ Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:239
 
 **Returns:** [_Matches_](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:183](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L183)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:183
 
 ---
 
@@ -1243,8 +1097,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:187](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L187)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:187
 
 ---
 
@@ -1263,8 +1116,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:200](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L200)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:200
 
 ---
 
@@ -1282,8 +1134,7 @@ Defined in:
 
 **Returns:** [_Regexp_](nodes.regexp.md)
 
-Defined in:
-[src/mixins/Predications.ts:213](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L213)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:213
 
 ---
 
@@ -1293,8 +1144,7 @@ Defined in:
 
 **Returns:** [_Max_](nodes.max.md)
 
-Defined in:
-[src/mixins/Expressions.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L21)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:21
 
 ---
 
@@ -1304,8 +1154,7 @@ Defined in:
 
 **Returns:** [_Min_](nodes.min.md)
 
-Defined in:
-[src/mixins/Expressions.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:25
 
 ---
 
@@ -1325,7 +1174,7 @@ Normalization Forms.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:432
+Defined in: typescript/lib/lib.es2015.core.d.ts:432
 
 ▸ **normalize**(`form?`: _string_): _string_
 
@@ -1341,7 +1190,7 @@ Normalization Forms.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:440
+Defined in: typescript/lib/lib.es2015.core.d.ts:440
 
 ---
 
@@ -1368,8 +1217,7 @@ _boolean_): [_Grouping_](nodes.grouping.md) \|
 [_GreaterThanOrEqual_](nodes.greaterthanorequal.md) \| [_In_](nodes.in.md) \|
 [_LessThan_](nodes.lessthan.md)
 
-Defined in:
-[src/mixins/Predications.ts:292](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L292)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:292
 
 ---
 
@@ -1385,8 +1233,7 @@ Defined in:
 
 **Returns:** [_NotEqual_](nodes.notequal.md)
 
-Defined in:
-[src/mixins/Predications.ts:217](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L217)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:217
 
 ---
 
@@ -1402,8 +1249,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:221](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L221)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:221
 
 ---
 
@@ -1419,8 +1265,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:225](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L225)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:225
 
 ---
 
@@ -1436,8 +1281,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:241](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L241)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:241
 
 ---
 
@@ -1453,8 +1297,7 @@ Defined in:
 
 **Returns:** [_Grouping_](nodes.grouping.md)
 
-Defined in:
-[src/mixins/Predications.ts:245](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L245)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:245
 
 ---
 
@@ -1470,8 +1313,7 @@ Defined in:
 
 **Returns:** [_NotIn_](nodes.notin.md)
 
-Defined in:
-[src/mixins/Predications.ts:229](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L229)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:229
 
 ---
 
@@ -1492,7 +1334,7 @@ resulting string reaches a given length. The padding is applied from the end
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2017.string.d.ts:46
+Defined in: typescript/lib/lib.es2017.string.d.ts:46
 
 ---
 
@@ -1513,7 +1355,7 @@ resulting string reaches a given length. The padding is applied from the start
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2017.string.d.ts:33
+Defined in: typescript/lib/lib.es2017.string.d.ts:33
 
 ---
 
@@ -1529,8 +1371,7 @@ Defined in: node_modules/typescript/lib/lib.es2017.string.d.ts:33
 
 **Returns:** _any_[]
 
-Defined in:
-[src/mixins/Predications.ts:253](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L253)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:253
 
 ---
 
@@ -1546,8 +1387,7 @@ Defined in:
 
 **Returns:** _any_
 
-Defined in:
-[src/mixins/Predications.ts:249](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L249)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:249
 
 ---
 
@@ -1569,7 +1409,7 @@ object and the rest parameter will contain the substitution values.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:516
+Defined in: typescript/lib/lib.es2015.core.d.ts:516
 
 ---
 
@@ -1588,7 +1428,7 @@ count is 0, the empty string is returned.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:447
+Defined in: typescript/lib/lib.es2015.core.d.ts:447
 
 ---
 
@@ -1608,7 +1448,7 @@ Replaces text in a string, using a regular expression or search string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:447
+Defined in: typescript/lib/lib.es5.d.ts:447
 
 ▸ **replace**(`searchValue`: _string_ \| _RegExp_, `replacer`: (`substring`:
 _string_, ...`args`: _any_[]) => _string_): _string_
@@ -1624,7 +1464,7 @@ Replaces text in a string, using a regular expression or search string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:454
+Defined in: typescript/lib/lib.es5.d.ts:454
 
 ▸ **replace**(`searchValue`: { `[Symbol.replace]`: (`string`: _string_,
 `replaceValue`: _string_) => _string_ }, `replaceValue`: _string_): _string_
@@ -1641,7 +1481,7 @@ string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:246
+Defined in: typescript/lib/lib.es2015.symbol.wellknown.d.ts:246
 
 ▸ **replace**(`searchValue`: { `[Symbol.replace]`: (`string`: _string_,
 `replacer`: (`substring`: _string_, ...`args`: _any_[]) => _string_) => _string_
@@ -1660,7 +1500,7 @@ string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:253
+Defined in: typescript/lib/lib.es2015.symbol.wellknown.d.ts:253
 
 ---
 
@@ -1678,7 +1518,7 @@ Finds the first substring match in a regular expression search.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:460
+Defined in: typescript/lib/lib.es5.d.ts:460
 
 ▸ **search**(`searcher`: { `[Symbol.search]`: (`string`: _string_) => _number_
 }): _number_
@@ -1693,7 +1533,7 @@ Finds the first substring match in a regular expression search.
 
 **Returns:** _number_
 
-Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:259
+Defined in: typescript/lib/lib.es2015.symbol.wellknown.d.ts:259
 
 ---
 
@@ -1712,7 +1552,7 @@ Returns a section of a string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:468
+Defined in: typescript/lib/lib.es5.d.ts:468
 
 ---
 
@@ -1724,7 +1564,7 @@ Returns a `<small>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:490
+Defined in: typescript/lib/lib.es2015.core.d.ts:490
 
 ---
 
@@ -1744,7 +1584,7 @@ an array.
 
 **Returns:** _string_[]
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:475
+Defined in: typescript/lib/lib.es5.d.ts:475
 
 ▸ **split**(`splitter`: { `[Symbol.split]`: (`string`: _string_, `limit?`:
 _number_) => _string_[] }, `limit?`: _number_): _string_[]
@@ -1761,7 +1601,7 @@ an array.
 
 **Returns:** _string_[]
 
-Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:266
+Defined in: typescript/lib/lib.es2015.symbol.wellknown.d.ts:266
 
 ---
 
@@ -1782,7 +1622,7 @@ starting at position. Otherwise returns false.
 
 **Returns:** _boolean_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:454
+Defined in: typescript/lib/lib.es2015.core.d.ts:454
 
 ---
 
@@ -1794,7 +1634,7 @@ Returns a `<strike>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:493
+Defined in: typescript/lib/lib.es2015.core.d.ts:493
 
 ---
 
@@ -1806,7 +1646,7 @@ Returns a `<sub>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:496
+Defined in: typescript/lib/lib.es2015.core.d.ts:496
 
 ---
 
@@ -1826,7 +1666,7 @@ length.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:509
+Defined in: typescript/lib/lib.es5.d.ts:509
 
 ---
 
@@ -1845,7 +1685,7 @@ Returns the substring at the specified location within a String object.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:483
+Defined in: typescript/lib/lib.es5.d.ts:483
 
 ---
 
@@ -1855,8 +1695,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:483
 
 **Returns:** [_Sum_](nodes.sum.md)
 
-Defined in:
-[src/mixins/Expressions.ts:29](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L29)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:29
 
 ---
 
@@ -1868,7 +1707,7 @@ Returns a `<sup>` HTML element
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:499
+Defined in: typescript/lib/lib.es2015.core.d.ts:499
 
 ---
 
@@ -1887,7 +1726,7 @@ environment's current locale.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:489
+Defined in: typescript/lib/lib.es5.d.ts:489
 
 ---
 
@@ -1906,7 +1745,7 @@ uppercase, taking into account the host environment's current locale.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:495
+Defined in: typescript/lib/lib.es5.d.ts:495
 
 ---
 
@@ -1918,7 +1757,7 @@ Converts all the alphabetic characters in a string to lowercase.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:486
+Defined in: typescript/lib/lib.es5.d.ts:486
 
 ---
 
@@ -1930,7 +1769,7 @@ Returns a string representation of a string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:396
+Defined in: typescript/lib/lib.es5.d.ts:396
 
 ---
 
@@ -1942,7 +1781,7 @@ Converts all the alphabetic characters in a string to uppercase.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:492
+Defined in: typescript/lib/lib.es5.d.ts:492
 
 ---
 
@@ -1955,7 +1794,19 @@ a string.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:498
+Defined in: typescript/lib/lib.es5.d.ts:498
+
+---
+
+### trimEnd
+
+▸ **trimEnd**(): _string_
+
+Returns a copy with trailing whitespace removed.
+
+**Returns:** _string_
+
+Defined in: @types/node/globals.d.ts:26
 
 ---
 
@@ -1967,7 +1818,7 @@ Removes whitespace from the left end of a string.
 
 **Returns:** _string_
 
-Defined in: node_modules/@types/node/globals.d.ts:19
+Defined in: @types/node/globals.d.ts:19
 
 ---
 
@@ -1979,7 +1830,19 @@ Removes whitespace from the right end of a string.
 
 **Returns:** _string_
 
-Defined in: node_modules/@types/node/globals.d.ts:21
+Defined in: @types/node/globals.d.ts:21
+
+---
+
+### trimStart
+
+▸ **trimStart**(): _string_
+
+Returns a copy with leading whitespace removed.
+
+**Returns:** _string_
+
+Defined in: @types/node/globals.d.ts:24
 
 ---
 
@@ -1991,7 +1854,7 @@ Returns the primitive value of the specified object.
 
 **Returns:** _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:512
+Defined in: typescript/lib/lib.es5.d.ts:512
 
 ---
 
@@ -2007,5 +1870,4 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:512
 
 **Returns:** [_Case_](nodes.case.md)
 
-Defined in:
-[src/mixins/WhenPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/WhenPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/WhenPredication.ts:5

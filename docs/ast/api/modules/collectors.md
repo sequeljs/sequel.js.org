@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Collectors
+---
+id: 'collectors'
+title: 'Namespace: Collectors'
+sidebar_label: 'Collectors'
+hide_title: true
+---
 
 # Namespace: Collectors
 
@@ -15,15 +20,10 @@
 
 - [Collector](../interfaces/collectors.collector.md)
 
-### Type aliases
-
-- [Binder](collectors.md#binder)
-
 ## Type aliases
 
 ### Binder
 
 Ƭ **Binder**: (`i`: _number_) => _string_
 
-Defined in:
-[src/collectors/Binder.ts:1](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Binder.ts#L1)
+Defined in: @sequeljs/ast/src/collectors/Binder.ts:1

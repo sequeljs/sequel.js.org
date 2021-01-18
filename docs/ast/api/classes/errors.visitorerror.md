@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Errors](../modules/errors.md) / VisitorError
+---
+id: 'errors.visitorerror'
+title: 'Class: VisitorError'
+sidebar_label: 'VisitorError'
+hide_title: true
+---
 
 # Class: VisitorError
 
@@ -19,24 +23,6 @@
 
   ↳↳ [_VisitorNotSupportedError_](errors.visitornotsupportederror.md)
 
-## Table of contents
-
-### Constructors
-
-- [constructor](errors.visitorerror.md#constructor)
-
-### Properties
-
-- [message](errors.visitorerror.md#message)
-- [name](errors.visitorerror.md#name)
-- [prepareStackTrace](errors.visitorerror.md#preparestacktrace)
-- [stack](errors.visitorerror.md#stack)
-- [stackTraceLimit](errors.visitorerror.md#stacktracelimit)
-
-### Methods
-
-- [captureStackTrace](errors.visitorerror.md#capturestacktrace)
-
 ## Constructors
 
 ### constructor
@@ -54,7 +40,7 @@
 
 Inherited from: [SequelASTError](errors.sequelasterror.md)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
+Defined in: typescript/lib/lib.es5.d.ts:978
 
 ## Properties
 
@@ -65,7 +51,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
 Inherited from:
 [SequelASTError](errors.sequelasterror.md).[message](errors.sequelasterror.md#message)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in: typescript/lib/lib.es5.d.ts:974
 
 ---
 
@@ -76,7 +62,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
 Inherited from:
 [SequelASTError](errors.sequelasterror.md).[name](errors.sequelasterror.md#name)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in: typescript/lib/lib.es5.d.ts:973
 
 ---
 
@@ -93,7 +79,7 @@ https://github.com/v8/v8/wiki/Stack%20Trace%20API#customizing-stack-traces
 Inherited from:
 [SequelASTError](errors.sequelasterror.md).[prepareStackTrace](errors.sequelasterror.md#preparestacktrace)
 
-Defined in: node_modules/@types/node/globals.d.ts:11
+Defined in: @types/node/globals.d.ts:11
 
 ---
 
@@ -104,7 +90,7 @@ Defined in: node_modules/@types/node/globals.d.ts:11
 Inherited from:
 [SequelASTError](errors.sequelasterror.md).[stack](errors.sequelasterror.md#stack)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in: typescript/lib/lib.es5.d.ts:975
 
 ---
 
@@ -115,7 +101,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
 Inherited from:
 [SequelASTError](errors.sequelasterror.md).[stackTraceLimit](errors.sequelasterror.md#stacktracelimit)
 
-Defined in: node_modules/@types/node/globals.d.ts:13
+Defined in: @types/node/globals.d.ts:13
 
 ## Methods
 
@@ -137,4 +123,4 @@ Create .stack property on a target object
 
 Inherited from: [SequelASTError](errors.sequelasterror.md)
 
-Defined in: node_modules/@types/node/globals.d.ts:4
+Defined in: @types/node/globals.d.ts:4

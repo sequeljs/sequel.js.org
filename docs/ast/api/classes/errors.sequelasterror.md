@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Errors](../modules/errors.md) / SequelASTError
+---
+id: 'errors.sequelasterror'
+title: 'Class: SequelASTError'
+sidebar_label: 'SequelASTError'
+hide_title: true
+---
 
 # Class: SequelASTError
 
@@ -14,24 +18,6 @@
   ↳↳ [_EmptyJoinError_](errors.emptyjoinerror.md)
 
   ↳↳ [_VisitorError_](errors.visitorerror.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](errors.sequelasterror.md#constructor)
-
-### Properties
-
-- [message](errors.sequelasterror.md#message)
-- [name](errors.sequelasterror.md#name)
-- [prepareStackTrace](errors.sequelasterror.md#preparestacktrace)
-- [stack](errors.sequelasterror.md#stack)
-- [stackTraceLimit](errors.sequelasterror.md#stacktracelimit)
-
-### Methods
-
-- [captureStackTrace](errors.sequelasterror.md#capturestacktrace)
 
 ## Constructors
 
@@ -48,7 +34,7 @@
 
 **Returns:** [_SequelASTError_](errors.sequelasterror.md)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
+Defined in: typescript/lib/lib.es5.d.ts:978
 
 ## Properties
 
@@ -56,7 +42,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
 
 • **message**: _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in: typescript/lib/lib.es5.d.ts:974
 
 ---
 
@@ -64,7 +50,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
 
 • **name**: _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in: typescript/lib/lib.es5.d.ts:973
 
 ---
 
@@ -78,7 +64,7 @@ Optional override for formatting stack traces
 **`see`**
 https://github.com/v8/v8/wiki/Stack%20Trace%20API#customizing-stack-traces
 
-Defined in: node_modules/@types/node/globals.d.ts:11
+Defined in: @types/node/globals.d.ts:11
 
 ---
 
@@ -86,7 +72,7 @@ Defined in: node_modules/@types/node/globals.d.ts:11
 
 • `Optional` **stack**: _undefined_ \| _string_
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in: typescript/lib/lib.es5.d.ts:975
 
 ---
 
@@ -94,7 +80,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
 
 • **stackTraceLimit**: _number_
 
-Defined in: node_modules/@types/node/globals.d.ts:13
+Defined in: @types/node/globals.d.ts:13
 
 ## Methods
 
@@ -114,4 +100,4 @@ Create .stack property on a target object
 
 **Returns:** _void_
 
-Defined in: node_modules/@types/node/globals.d.ts:4
+Defined in: @types/node/globals.d.ts:4

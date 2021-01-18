@@ -1,5 +1,9 @@
 ---
-title: About
+id: 'index'
+title: '@sequeljs/orm'
+slug: '/orm/api'
+sidebar_label: 'About'
+hide_title: true
 ---
 
 @sequeljs/orm / [Exports](modules.md)

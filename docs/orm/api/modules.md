@@ -1,8 +1,11 @@
 ---
-title: API Reference
+id: 'modules'
+title: '@sequeljs/orm'
+sidebar_label: 'Table of contents'
+hide_title: true
 ---
 
-[@sequeljs/orm](README.md) / Exports
+[@sequeljs/orm](index.md) / Exports
 
 # @sequeljs/orm
 

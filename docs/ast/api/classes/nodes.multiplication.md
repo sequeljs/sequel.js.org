@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Nodes](../modules/nodes.md) / Multiplication
+---
+id: 'nodes.multiplication'
+title: 'Class: Multiplication'
+sidebar_label: 'Multiplication'
+hide_title: true
+---
 
 # Class: Multiplication
 
@@ -10,99 +14,6 @@
 - [_InfixOperation_](nodes.infixoperation.md)
 
   ↳ **Multiplication**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](nodes.multiplication.md#constructor)
-
-### Properties
-
-- [left](nodes.multiplication.md#left)
-- [operator](nodes.multiplication.md#operator)
-- [right](nodes.multiplication.md#right)
-
-### Methods
-
-- [add](nodes.multiplication.md#add)
-- [and](nodes.multiplication.md#and)
-- [as](nodes.multiplication.md#as)
-- [asc](nodes.multiplication.md#asc)
-- [average](nodes.multiplication.md#average)
-- [between](nodes.multiplication.md#between)
-- [bitwiseAnd](nodes.multiplication.md#bitwiseand)
-- [bitwiseNot](nodes.multiplication.md#bitwisenot)
-- [bitwiseOr](nodes.multiplication.md#bitwiseor)
-- [bitwiseShiftLeft](nodes.multiplication.md#bitwiseshiftleft)
-- [bitwiseShiftRight](nodes.multiplication.md#bitwiseshiftright)
-- [bitwiseXor](nodes.multiplication.md#bitwisexor)
-- [coalesce](nodes.multiplication.md#coalesce)
-- [concat](nodes.multiplication.md#concat)
-- [count](nodes.multiplication.md#count)
-- [createAnd](nodes.multiplication.md#createand)
-- [createFalse](nodes.multiplication.md#createfalse)
-- [createJoin](nodes.multiplication.md#createjoin)
-- [createOn](nodes.multiplication.md#createon)
-- [createStringJoin](nodes.multiplication.md#createstringjoin)
-- [createTableAlias](nodes.multiplication.md#createtablealias)
-- [createTrue](nodes.multiplication.md#createtrue)
-- [desc](nodes.multiplication.md#desc)
-- [divide](nodes.multiplication.md#divide)
-- [doesNotMatch](nodes.multiplication.md#doesnotmatch)
-- [doesNotMatchAll](nodes.multiplication.md#doesnotmatchall)
-- [doesNotMatchAny](nodes.multiplication.md#doesnotmatchany)
-- [doesNotMatchRegexp](nodes.multiplication.md#doesnotmatchregexp)
-- [eq](nodes.multiplication.md#eq)
-- [eqAll](nodes.multiplication.md#eqall)
-- [eqAny](nodes.multiplication.md#eqany)
-- [extract](nodes.multiplication.md#extract)
-- [grouping](nodes.multiplication.md#grouping)
-- [groupingAll](nodes.multiplication.md#groupingall)
-- [groupingAny](nodes.multiplication.md#groupingany)
-- [gt](nodes.multiplication.md#gt)
-- [gtAll](nodes.multiplication.md#gtall)
-- [gtAny](nodes.multiplication.md#gtany)
-- [gteq](nodes.multiplication.md#gteq)
-- [gteqAll](nodes.multiplication.md#gteqall)
-- [gteqAny](nodes.multiplication.md#gteqany)
-- [inAll](nodes.multiplication.md#inall)
-- [inAny](nodes.multiplication.md#inany)
-- [inVal](nodes.multiplication.md#inval)
-- [isDistinctFrom](nodes.multiplication.md#isdistinctfrom)
-- [isInfinity](nodes.multiplication.md#isinfinity)
-- [isNotDistinctFrom](nodes.multiplication.md#isnotdistinctfrom)
-- [isOpenEnded](nodes.multiplication.md#isopenended)
-- [isUnboundable](nodes.multiplication.md#isunboundable)
-- [lower](nodes.multiplication.md#lower)
-- [lt](nodes.multiplication.md#lt)
-- [ltAll](nodes.multiplication.md#ltall)
-- [ltAny](nodes.multiplication.md#ltany)
-- [lteq](nodes.multiplication.md#lteq)
-- [lteqAll](nodes.multiplication.md#lteqall)
-- [lteqAny](nodes.multiplication.md#lteqany)
-- [matches](nodes.multiplication.md#matches)
-- [matchesAll](nodes.multiplication.md#matchesall)
-- [matchesAny](nodes.multiplication.md#matchesany)
-- [matchesRegexp](nodes.multiplication.md#matchesregexp)
-- [maximum](nodes.multiplication.md#maximum)
-- [minimum](nodes.multiplication.md#minimum)
-- [multiply](nodes.multiplication.md#multiply)
-- [not](nodes.multiplication.md#not)
-- [notBetween](nodes.multiplication.md#notbetween)
-- [notEq](nodes.multiplication.md#noteq)
-- [notEqAll](nodes.multiplication.md#noteqall)
-- [notEqAny](nodes.multiplication.md#noteqany)
-- [notInAll](nodes.multiplication.md#notinall)
-- [notInAny](nodes.multiplication.md#notinany)
-- [notInVal](nodes.multiplication.md#notinval)
-- [or](nodes.multiplication.md#or)
-- [quotedArray](nodes.multiplication.md#quotedarray)
-- [quotedNode](nodes.multiplication.md#quotednode)
-- [subtract](nodes.multiplication.md#subtract)
-- [sum](nodes.multiplication.md#sum)
-- [toSQL](nodes.multiplication.md#tosql)
-- [when](nodes.multiplication.md#when)
 
 ## Constructors
 
@@ -122,8 +33,7 @@
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/nodes/Multiplication.ts:3](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Multiplication.ts#L3)
+Defined in: @sequeljs/ast/src/nodes/Multiplication.ts:3
 
 ## Properties
 
@@ -134,8 +44,7 @@ Defined in:
 Inherited from:
 [InfixOperation](nodes.infixoperation.md).[left](nodes.infixoperation.md#left)
 
-Defined in:
-[src/nodes/Binary.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Binary.ts#L6)
+Defined in: @sequeljs/ast/src/nodes/Binary.ts:6
 
 ---
 
@@ -146,8 +55,7 @@ Defined in:
 Inherited from:
 [InfixOperation](nodes.infixoperation.md).[operator](nodes.infixoperation.md#operator)
 
-Defined in:
-[src/nodes/InfixOperation.ts:12](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/InfixOperation.ts#L12)
+Defined in: @sequeljs/ast/src/nodes/InfixOperation.ts:12
 
 ---
 
@@ -158,8 +66,7 @@ Defined in:
 Inherited from:
 [InfixOperation](nodes.infixoperation.md).[right](nodes.infixoperation.md#right)
 
-Defined in:
-[src/nodes/Binary.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Binary.ts#L8)
+Defined in: @sequeljs/ast/src/nodes/Binary.ts:8
 
 ## Methods
 
@@ -177,8 +84,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:14](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L14)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:14
 
 ---
 
@@ -196,8 +102,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:11
 
 ---
 
@@ -216,8 +121,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/AliasPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/AliasPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/AliasPredication.ts:5
 
 ---
 
@@ -229,8 +133,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L7)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:7
 
 ---
 
@@ -242,8 +145,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:9](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L9)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:9
 
 ---
 
@@ -272,8 +174,7 @@ _boolean_): [_GreaterThanOrEqual_](nodes.greaterthanorequal.md) \|
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:257](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L257)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:257
 
 ---
 
@@ -291,8 +192,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:18](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L18)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:18
 
 ---
 
@@ -304,8 +204,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:22
 
 ---
 
@@ -323,8 +222,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:26
 
 ---
 
@@ -342,8 +240,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:30
 
 ---
 
@@ -361,8 +258,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:34
 
 ---
 
@@ -380,8 +276,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:38](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L38)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:38
 
 ---
 
@@ -400,8 +295,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:22
 
 ---
 
@@ -419,8 +313,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/ConcatPredication.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/ConcatPredication.ts#L4)
+Defined in: @sequeljs/ast/src/mixins/ConcatPredication.ts:4
 
 ---
 
@@ -438,8 +331,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:13
 
 ---
 
@@ -457,8 +349,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:26
 
 ---
 
@@ -470,8 +361,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:30
 
 ---
 
@@ -491,8 +381,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:34
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -509,8 +398,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:35
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -530,8 +418,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:39
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -550,8 +437,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:44
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -570,8 +456,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:49
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -591,8 +476,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:54
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -611,8 +495,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:59
 
 ---
 
@@ -630,8 +513,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:72
 
 ---
 
@@ -651,8 +533,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:76
 
 ---
 
@@ -674,8 +555,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:80
 
 ---
 
@@ -687,8 +567,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:87
 
 ---
 
@@ -700,8 +579,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:11
 
 ---
 
@@ -719,8 +597,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:42](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L42)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:42
 
 ---
 
@@ -741,8 +618,7 @@ _boolean_): [_DoesNotMatch_](nodes.doesnotmatch.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:57](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L57)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:57
 
 ---
 
@@ -763,8 +639,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:65](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L65)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:65
 
 ---
 
@@ -785,8 +660,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:78](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L78)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:78
 
 ---
 
@@ -806,8 +680,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:91
 
 ---
 
@@ -825,8 +698,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:95
 
 ---
 
@@ -844,8 +716,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:99](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L99)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:99
 
 ---
 
@@ -863,8 +734,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:103](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L103)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:103
 
 ---
 
@@ -882,8 +752,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L17)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:17
 
 ---
 
@@ -901,8 +770,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:91
 
 ---
 
@@ -923,8 +791,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:25
 
 ---
 
@@ -945,8 +812,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:35
 
 ---
 
@@ -964,8 +830,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:107](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L107)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:107
 
 ---
 
@@ -983,8 +848,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:111](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L111)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:111
 
 ---
 
@@ -1002,8 +866,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:115](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L115)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:115
 
 ---
 
@@ -1021,8 +884,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:119](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L119)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:119
 
 ---
 
@@ -1040,8 +902,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:123](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L123)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:123
 
 ---
 
@@ -1059,8 +920,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:127](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L127)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:127
 
 ---
 
@@ -1078,8 +938,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:143](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L143)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:143
 
 ---
 
@@ -1097,8 +956,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:147](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L147)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:147
 
 ---
 
@@ -1116,8 +974,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:131](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L131)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:131
 
 ---
 
@@ -1136,8 +993,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:155](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L155)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:155
 
 ---
 
@@ -1155,8 +1011,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L45)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:45
 
 ---
 
@@ -1175,8 +1030,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:151](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L151)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:151
 
 ---
 
@@ -1194,8 +1048,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:49
 
 ---
 
@@ -1213,8 +1066,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:53](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L53)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:53
 
 ---
 
@@ -1232,8 +1084,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:95
 
 ---
 
@@ -1251,8 +1102,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:159](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L159)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:159
 
 ---
 
@@ -1270,8 +1120,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:163](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L163)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:163
 
 ---
 
@@ -1289,8 +1138,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:167](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L167)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:167
 
 ---
 
@@ -1308,8 +1156,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:171](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L171)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:171
 
 ---
 
@@ -1327,8 +1174,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:175](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L175)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:175
 
 ---
 
@@ -1346,8 +1192,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:179](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L179)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:179
 
 ---
 
@@ -1368,8 +1213,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:183](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L183)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:183
 
 ---
 
@@ -1390,8 +1234,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:187](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L187)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:187
 
 ---
 
@@ -1412,8 +1255,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:200](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L200)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:200
 
 ---
 
@@ -1433,8 +1275,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:213](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L213)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:213
 
 ---
 
@@ -1446,8 +1287,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L21)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:21
 
 ---
 
@@ -1459,8 +1299,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:25
 
 ---
 
@@ -1478,8 +1317,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:46](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L46)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:46
 
 ---
 
@@ -1491,8 +1329,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L15)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:15
 
 ---
 
@@ -1521,8 +1358,7 @@ _boolean_): [_Grouping_](nodes.grouping.md) \|
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:292](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L292)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:292
 
 ---
 
@@ -1540,8 +1376,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:217](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L217)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:217
 
 ---
 
@@ -1559,8 +1394,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:221](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L221)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:221
 
 ---
 
@@ -1578,8 +1412,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:225](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L225)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:225
 
 ---
 
@@ -1597,8 +1430,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:241](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L241)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:241
 
 ---
 
@@ -1616,8 +1448,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:245](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L245)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:245
 
 ---
 
@@ -1635,8 +1466,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:229](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L229)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:229
 
 ---
 
@@ -1660,8 +1490,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L19)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:19
 
 ---
 
@@ -1679,8 +1508,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:253](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L253)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:253
 
 ---
 
@@ -1698,8 +1526,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Predications.ts:249](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L249)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:249
 
 ---
 
@@ -1717,8 +1544,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Math.ts:50](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L50)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:50
 
 ---
 
@@ -1730,8 +1556,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/Expressions.ts:29](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L29)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:29
 
 ---
 
@@ -1750,8 +1575,7 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/nodes/Node.ts:16](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Node.ts#L16)
+Defined in: @sequeljs/ast/src/nodes/Node.ts:16
 
 ---
 
@@ -1769,5 +1593,4 @@ Defined in:
 
 Inherited from: [InfixOperation](nodes.infixoperation.md)
 
-Defined in:
-[src/mixins/WhenPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/WhenPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/WhenPredication.ts:5

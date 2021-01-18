@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Collectors](../modules/collectors.md) / Collector
+---
+id: 'collectors.collector'
+title: 'Interface: Collector<T>'
+sidebar_label: 'Collector'
+hide_title: true
+---
 
 # Interface: Collector<T\>
 
@@ -22,25 +26,13 @@
 - [_SQLString_](../classes/collectors.sqlstring.md)
 - [_SubstituteBinds_](../classes/collectors.substitutebinds.md)
 
-## Table of contents
-
-### Properties
-
-- [value](collectors.collector.md#value)
-
-### Methods
-
-- [addBind](collectors.collector.md#addbind)
-- [append](collectors.collector.md#append)
-
 ## Properties
 
 ### value
 
 • `Readonly` **value**: T
 
-Defined in:
-[src/collectors/Collector.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Collector.ts#L4)
+Defined in: @sequeljs/ast/src/collectors/Collector.ts:4
 
 ## Methods
 
@@ -59,8 +51,7 @@ Defined in:
 
 **Returns:** [_Collector_](collectors.collector.md)<T\>
 
-Defined in:
-[src/collectors/Collector.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Collector.ts#L6)
+Defined in: @sequeljs/ast/src/collectors/Collector.ts:6
 
 ---
 
@@ -76,5 +67,4 @@ Defined in:
 
 **Returns:** [_Collector_](collectors.collector.md)<T\>
 
-Defined in:
-[src/collectors/Collector.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Collector.ts#L8)
+Defined in: @sequeljs/ast/src/collectors/Collector.ts:8

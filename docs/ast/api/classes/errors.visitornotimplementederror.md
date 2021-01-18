@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Errors](../modules/errors.md) / VisitorNotImplementedError
+---
+id: 'errors.visitornotimplementederror'
+title: 'Class: VisitorNotImplementedError'
+sidebar_label: 'VisitorNotImplementedError'
+hide_title: true
+---
 
 # Class: VisitorNotImplementedError
 
@@ -10,24 +14,6 @@
 - [_VisitorError_](errors.visitorerror.md)
 
   ↳ **VisitorNotImplementedError**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](errors.visitornotimplementederror.md#constructor)
-
-### Properties
-
-- [message](errors.visitornotimplementederror.md#message)
-- [name](errors.visitornotimplementederror.md#name)
-- [prepareStackTrace](errors.visitornotimplementederror.md#preparestacktrace)
-- [stack](errors.visitornotimplementederror.md#stack)
-- [stackTraceLimit](errors.visitornotimplementederror.md#stacktracelimit)
-
-### Methods
-
-- [captureStackTrace](errors.visitornotimplementederror.md#capturestacktrace)
 
 ## Constructors
 
@@ -47,7 +33,7 @@
 
 Inherited from: [VisitorError](errors.visitorerror.md)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
+Defined in: typescript/lib/lib.es5.d.ts:978
 
 ## Properties
 
@@ -58,7 +44,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:978
 Inherited from:
 [VisitorError](errors.visitorerror.md).[message](errors.visitorerror.md#message)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in: typescript/lib/lib.es5.d.ts:974
 
 ---
 
@@ -69,7 +55,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:974
 Inherited from:
 [VisitorError](errors.visitorerror.md).[name](errors.visitorerror.md#name)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in: typescript/lib/lib.es5.d.ts:973
 
 ---
 
@@ -86,7 +72,7 @@ https://github.com/v8/v8/wiki/Stack%20Trace%20API#customizing-stack-traces
 Inherited from:
 [VisitorError](errors.visitorerror.md).[prepareStackTrace](errors.visitorerror.md#preparestacktrace)
 
-Defined in: node_modules/@types/node/globals.d.ts:11
+Defined in: @types/node/globals.d.ts:11
 
 ---
 
@@ -97,7 +83,7 @@ Defined in: node_modules/@types/node/globals.d.ts:11
 Inherited from:
 [VisitorError](errors.visitorerror.md).[stack](errors.visitorerror.md#stack)
 
-Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in: typescript/lib/lib.es5.d.ts:975
 
 ---
 
@@ -108,7 +94,7 @@ Defined in: node_modules/typescript/lib/lib.es5.d.ts:975
 Inherited from:
 [VisitorError](errors.visitorerror.md).[stackTraceLimit](errors.visitorerror.md#stacktracelimit)
 
-Defined in: node_modules/@types/node/globals.d.ts:13
+Defined in: @types/node/globals.d.ts:13
 
 ## Methods
 
@@ -130,4 +116,4 @@ Create .stack property on a target object
 
 Inherited from: [VisitorError](errors.visitorerror.md)
 
-Defined in: node_modules/@types/node/globals.d.ts:4
+Defined in: @types/node/globals.d.ts:4

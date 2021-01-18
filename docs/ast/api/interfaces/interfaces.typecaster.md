@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Interfaces](../modules/interfaces.md) / TypeCaster
+---
+id: 'interfaces.typecaster'
+title: 'Interface: TypeCaster'
+sidebar_label: 'TypeCaster'
+hide_title: true
+---
 
 # Interface: TypeCaster
 
@@ -13,13 +17,6 @@
 
 - [_Table_](../classes/table.md)
 
-## Table of contents
-
-### Methods
-
-- [isAbleToTypeCast](interfaces.typecaster.md#isabletotypecast)
-- [typeCastForDatabase](interfaces.typecaster.md#typecastfordatabase)
-
 ## Methods
 
 ### isAbleToTypeCast
@@ -28,8 +25,7 @@
 
 **Returns:** _boolean_
 
-Defined in:
-[src/interfaces/TypeCaster.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/TypeCaster.ts#L6)
+Defined in: @sequeljs/ast/src/interfaces/TypeCaster.ts:6
 
 ---
 
@@ -48,5 +44,4 @@ Defined in:
 
 **Returns:** _string_ \| _number_
 
-Defined in:
-[src/interfaces/TypeCaster.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/TypeCaster.ts#L8)
+Defined in: @sequeljs/ast/src/interfaces/TypeCaster.ts:8

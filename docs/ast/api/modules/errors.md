@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Errors
+---
+id: 'errors'
+title: 'Namespace: Errors'
+sidebar_label: 'Errors'
+hide_title: true
+---
 
 # Namespace: Errors
 

@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Managers](../modules/managers.md) / InsertManager
+---
+id: 'managers.insertmanager'
+title: 'Class: InsertManager'
+sidebar_label: 'InsertManager'
+hide_title: true
+---
 
 # Class: InsertManager
 
@@ -12,42 +16,6 @@
 
   ↳ **InsertManager**
 
-## Table of contents
-
-### Constructors
-
-- [constructor](managers.insertmanager.md#constructor)
-
-### Properties
-
-- [ast](managers.insertmanager.md#ast)
-- [ctx](managers.insertmanager.md#ctx)
-
-### Accessors
-
-- [columns](managers.insertmanager.md#columns)
-- [values](managers.insertmanager.md#values)
-
-### Methods
-
-- [coalesce](managers.insertmanager.md#coalesce)
-- [createAnd](managers.insertmanager.md#createand)
-- [createFalse](managers.insertmanager.md#createfalse)
-- [createJoin](managers.insertmanager.md#createjoin)
-- [createOn](managers.insertmanager.md#createon)
-- [createStringJoin](managers.insertmanager.md#createstringjoin)
-- [createTableAlias](managers.insertmanager.md#createtablealias)
-- [createTrue](managers.insertmanager.md#createtrue)
-- [createValues](managers.insertmanager.md#createvalues)
-- [createValuesList](managers.insertmanager.md#createvalueslist)
-- [grouping](managers.insertmanager.md#grouping)
-- [insert](managers.insertmanager.md#insert)
-- [into](managers.insertmanager.md#into)
-- [lower](managers.insertmanager.md#lower)
-- [select](managers.insertmanager.md#select)
-- [toSQL](managers.insertmanager.md#tosql)
-- [where](managers.insertmanager.md#where)
-
 ## Constructors
 
 ### constructor
@@ -58,8 +26,7 @@
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/InsertManager.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L21)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:21
 
 ## Properties
 
@@ -70,8 +37,7 @@ Defined in:
 Inherited from:
 [TreeManager](managers.treemanager.md).[ast](managers.treemanager.md#ast)
 
-Defined in:
-[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L15)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:15
 
 ---
 
@@ -82,8 +48,7 @@ Defined in:
 Overrides:
 [TreeManager](managers.treemanager.md).[ctx](managers.treemanager.md#ctx)
 
-Defined in:
-[src/managers/InsertManager.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L13)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:13
 
 ## Accessors
 
@@ -93,8 +58,7 @@ Defined in:
 
 **Returns:** [_Attribute_](attributes.attribute.md)[]
 
-Defined in:
-[src/managers/InsertManager.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L15)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:15
 
 ---
 
@@ -110,8 +74,7 @@ Defined in:
 
 **Returns:** _void_
 
-Defined in:
-[src/managers/InsertManager.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L19)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:19
 
 ## Methods
 
@@ -130,8 +93,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:22
 
 ---
 
@@ -149,8 +111,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:26
 
 ---
 
@@ -162,8 +123,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:30
 
 ---
 
@@ -183,8 +143,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:34
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -201,8 +160,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:35
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -222,8 +180,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:39
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -242,8 +199,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:44
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -262,8 +218,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:49
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -283,8 +238,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:54
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -303,8 +257,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:59
 
 ---
 
@@ -322,8 +275,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:72
 
 ---
 
@@ -343,8 +295,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:76
 
 ---
 
@@ -366,8 +317,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:80
 
 ---
 
@@ -379,8 +329,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:87
 
 ---
 
@@ -396,8 +345,7 @@ Defined in:
 
 **Returns:** [_ValuesList_](nodes.valueslist.md)
 
-Defined in:
-[src/managers/InsertManager.ts:29](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L29)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:29
 
 ---
 
@@ -413,8 +361,7 @@ Defined in:
 
 **Returns:** [_ValuesList_](nodes.valueslist.md)
 
-Defined in:
-[src/managers/InsertManager.ts:33](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L33)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:33
 
 ---
 
@@ -432,8 +379,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:91
 
 ---
 
@@ -449,8 +395,7 @@ Defined in:
 
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
-Defined in:
-[src/managers/InsertManager.ts:37](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L37)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:37
 
 ---
 
@@ -467,8 +412,7 @@ Defined in:
 
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
-Defined in:
-[src/managers/InsertManager.ts:61](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L61)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:61
 
 ---
 
@@ -486,8 +430,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:95
 
 ---
 
@@ -503,8 +446,7 @@ Defined in:
 
 **Returns:** _void_
 
-Defined in:
-[src/managers/InsertManager.ts:67](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/InsertManager.ts#L67)
+Defined in: @sequeljs/ast/src/managers/InsertManager.ts:67
 
 ---
 
@@ -523,8 +465,7 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L23)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:23
 
 ---
 
@@ -542,5 +483,4 @@ Defined in:
 
 Inherited from: [TreeManager](managers.treemanager.md)
 
-Defined in:
-[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L44)
+Defined in: @sequeljs/ast/src/managers/TreeManager.ts:44

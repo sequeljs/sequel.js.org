@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Nodes
+---
+id: 'nodes'
+title: 'Namespace: Nodes'
+sidebar_label: 'Nodes'
+hide_title: true
+---
 
 # Namespace: Nodes
 
@@ -110,10 +115,6 @@
 - [With](../classes/nodes.with.md)
 - [WithRecursive](../classes/nodes.withrecursive.md)
 
-### Type aliases
-
-- [Statement](nodes.md#statement)
-
 ## Type aliases
 
 ### Statement
@@ -123,5 +124,4 @@
 [_SelectStatement_](../classes/nodes.selectstatement.md) \|
 [_UpdateStatement_](../classes/nodes.updatestatement.md)
 
-Defined in:
-[src/nodes/Statement.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Statement.ts#L6)
+Defined in: @sequeljs/ast/src/nodes/Statement.ts:6

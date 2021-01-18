@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Nodes](../modules/nodes.md) / DoesNotMatch
+---
+id: 'nodes.doesnotmatch'
+title: 'Class: DoesNotMatch'
+sidebar_label: 'DoesNotMatch'
+hide_title: true
+---
 
 # Class: DoesNotMatch
 
@@ -10,100 +14,6 @@
 - [_Matches_](nodes.matches.md)
 
   ↳ **DoesNotMatch**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](nodes.doesnotmatch.md#constructor)
-
-### Properties
-
-- [caseSensitive](nodes.doesnotmatch.md#casesensitive)
-- [escape](nodes.doesnotmatch.md#escape)
-- [left](nodes.doesnotmatch.md#left)
-- [right](nodes.doesnotmatch.md#right)
-
-### Methods
-
-- [add](nodes.doesnotmatch.md#add)
-- [and](nodes.doesnotmatch.md#and)
-- [as](nodes.doesnotmatch.md#as)
-- [asc](nodes.doesnotmatch.md#asc)
-- [average](nodes.doesnotmatch.md#average)
-- [between](nodes.doesnotmatch.md#between)
-- [bitwiseAnd](nodes.doesnotmatch.md#bitwiseand)
-- [bitwiseNot](nodes.doesnotmatch.md#bitwisenot)
-- [bitwiseOr](nodes.doesnotmatch.md#bitwiseor)
-- [bitwiseShiftLeft](nodes.doesnotmatch.md#bitwiseshiftleft)
-- [bitwiseShiftRight](nodes.doesnotmatch.md#bitwiseshiftright)
-- [bitwiseXor](nodes.doesnotmatch.md#bitwisexor)
-- [coalesce](nodes.doesnotmatch.md#coalesce)
-- [concat](nodes.doesnotmatch.md#concat)
-- [count](nodes.doesnotmatch.md#count)
-- [createAnd](nodes.doesnotmatch.md#createand)
-- [createFalse](nodes.doesnotmatch.md#createfalse)
-- [createJoin](nodes.doesnotmatch.md#createjoin)
-- [createOn](nodes.doesnotmatch.md#createon)
-- [createStringJoin](nodes.doesnotmatch.md#createstringjoin)
-- [createTableAlias](nodes.doesnotmatch.md#createtablealias)
-- [createTrue](nodes.doesnotmatch.md#createtrue)
-- [desc](nodes.doesnotmatch.md#desc)
-- [divide](nodes.doesnotmatch.md#divide)
-- [doesNotMatch](nodes.doesnotmatch.md#doesnotmatch)
-- [doesNotMatchAll](nodes.doesnotmatch.md#doesnotmatchall)
-- [doesNotMatchAny](nodes.doesnotmatch.md#doesnotmatchany)
-- [doesNotMatchRegexp](nodes.doesnotmatch.md#doesnotmatchregexp)
-- [eq](nodes.doesnotmatch.md#eq)
-- [eqAll](nodes.doesnotmatch.md#eqall)
-- [eqAny](nodes.doesnotmatch.md#eqany)
-- [extract](nodes.doesnotmatch.md#extract)
-- [grouping](nodes.doesnotmatch.md#grouping)
-- [groupingAll](nodes.doesnotmatch.md#groupingall)
-- [groupingAny](nodes.doesnotmatch.md#groupingany)
-- [gt](nodes.doesnotmatch.md#gt)
-- [gtAll](nodes.doesnotmatch.md#gtall)
-- [gtAny](nodes.doesnotmatch.md#gtany)
-- [gteq](nodes.doesnotmatch.md#gteq)
-- [gteqAll](nodes.doesnotmatch.md#gteqall)
-- [gteqAny](nodes.doesnotmatch.md#gteqany)
-- [inAll](nodes.doesnotmatch.md#inall)
-- [inAny](nodes.doesnotmatch.md#inany)
-- [inVal](nodes.doesnotmatch.md#inval)
-- [isDistinctFrom](nodes.doesnotmatch.md#isdistinctfrom)
-- [isInfinity](nodes.doesnotmatch.md#isinfinity)
-- [isNotDistinctFrom](nodes.doesnotmatch.md#isnotdistinctfrom)
-- [isOpenEnded](nodes.doesnotmatch.md#isopenended)
-- [isUnboundable](nodes.doesnotmatch.md#isunboundable)
-- [lower](nodes.doesnotmatch.md#lower)
-- [lt](nodes.doesnotmatch.md#lt)
-- [ltAll](nodes.doesnotmatch.md#ltall)
-- [ltAny](nodes.doesnotmatch.md#ltany)
-- [lteq](nodes.doesnotmatch.md#lteq)
-- [lteqAll](nodes.doesnotmatch.md#lteqall)
-- [lteqAny](nodes.doesnotmatch.md#lteqany)
-- [matches](nodes.doesnotmatch.md#matches)
-- [matchesAll](nodes.doesnotmatch.md#matchesall)
-- [matchesAny](nodes.doesnotmatch.md#matchesany)
-- [matchesRegexp](nodes.doesnotmatch.md#matchesregexp)
-- [maximum](nodes.doesnotmatch.md#maximum)
-- [minimum](nodes.doesnotmatch.md#minimum)
-- [multiply](nodes.doesnotmatch.md#multiply)
-- [not](nodes.doesnotmatch.md#not)
-- [notBetween](nodes.doesnotmatch.md#notbetween)
-- [notEq](nodes.doesnotmatch.md#noteq)
-- [notEqAll](nodes.doesnotmatch.md#noteqall)
-- [notEqAny](nodes.doesnotmatch.md#noteqany)
-- [notInAll](nodes.doesnotmatch.md#notinall)
-- [notInAny](nodes.doesnotmatch.md#notinany)
-- [notInVal](nodes.doesnotmatch.md#notinval)
-- [or](nodes.doesnotmatch.md#or)
-- [quotedArray](nodes.doesnotmatch.md#quotedarray)
-- [quotedNode](nodes.doesnotmatch.md#quotednode)
-- [subtract](nodes.doesnotmatch.md#subtract)
-- [sum](nodes.doesnotmatch.md#sum)
-- [toSQL](nodes.doesnotmatch.md#tosql)
-- [when](nodes.doesnotmatch.md#when)
 
 ## Constructors
 
@@ -125,8 +35,7 @@
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/nodes/Matches.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Matches.ts#L7)
+Defined in: @sequeljs/ast/src/nodes/Matches.ts:7
 
 ## Properties
 
@@ -137,8 +46,7 @@ Defined in:
 Inherited from:
 [Matches](nodes.matches.md).[caseSensitive](nodes.matches.md#casesensitive)
 
-Defined in:
-[src/nodes/Matches.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Matches.ts#L5)
+Defined in: @sequeljs/ast/src/nodes/Matches.ts:5
 
 ---
 
@@ -148,8 +56,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md).[escape](nodes.matches.md#escape)
 
-Defined in:
-[src/nodes/Matches.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Matches.ts#L7)
+Defined in: @sequeljs/ast/src/nodes/Matches.ts:7
 
 ---
 
@@ -159,8 +66,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md).[left](nodes.matches.md#left)
 
-Defined in:
-[src/nodes/Binary.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Binary.ts#L6)
+Defined in: @sequeljs/ast/src/nodes/Binary.ts:6
 
 ---
 
@@ -170,8 +76,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md).[right](nodes.matches.md#right)
 
-Defined in:
-[src/nodes/Binary.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Binary.ts#L8)
+Defined in: @sequeljs/ast/src/nodes/Binary.ts:8
 
 ## Methods
 
@@ -189,8 +94,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:14](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L14)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:14
 
 ---
 
@@ -208,8 +112,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:11
 
 ---
 
@@ -228,8 +131,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/AliasPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/AliasPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/AliasPredication.ts:5
 
 ---
 
@@ -241,8 +143,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L7)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:7
 
 ---
 
@@ -254,8 +155,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:9](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L9)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:9
 
 ---
 
@@ -284,8 +184,7 @@ _boolean_): [_GreaterThanOrEqual_](nodes.greaterthanorequal.md) \|
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:257](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L257)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:257
 
 ---
 
@@ -303,8 +202,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:18](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L18)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:18
 
 ---
 
@@ -316,8 +214,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:22
 
 ---
 
@@ -335,8 +232,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:26
 
 ---
 
@@ -354,8 +250,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:30
 
 ---
 
@@ -373,8 +268,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:34
 
 ---
 
@@ -392,8 +286,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:38](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L38)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:38
 
 ---
 
@@ -412,8 +305,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:22
 
 ---
 
@@ -431,8 +323,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/ConcatPredication.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/ConcatPredication.ts#L4)
+Defined in: @sequeljs/ast/src/mixins/ConcatPredication.ts:4
 
 ---
 
@@ -450,8 +341,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L13)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:13
 
 ---
 
@@ -469,8 +359,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:26
 
 ---
 
@@ -482,8 +371,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:30
 
 ---
 
@@ -503,8 +391,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:34
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -521,8 +408,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:35
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -542,8 +428,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:39
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -562,8 +447,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:44
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -582,8 +466,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:49
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -603,8 +486,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:54
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -623,8 +505,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:59
 
 ---
 
@@ -642,8 +523,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:72
 
 ---
 
@@ -663,8 +543,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:76
 
 ---
 
@@ -686,8 +565,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:80
 
 ---
 
@@ -699,8 +577,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:87
 
 ---
 
@@ -712,8 +589,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/OrderPredications.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/OrderPredications.ts#L11)
+Defined in: @sequeljs/ast/src/mixins/OrderPredications.ts:11
 
 ---
 
@@ -731,8 +607,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:42](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L42)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:42
 
 ---
 
@@ -753,8 +628,7 @@ _boolean_): [_DoesNotMatch_](nodes.doesnotmatch.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:57](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L57)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:57
 
 ---
 
@@ -775,8 +649,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:65](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L65)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:65
 
 ---
 
@@ -797,8 +670,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:78](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L78)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:78
 
 ---
 
@@ -818,8 +690,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:91
 
 ---
 
@@ -837,8 +708,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:95
 
 ---
 
@@ -856,8 +726,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:99](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L99)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:99
 
 ---
 
@@ -875,8 +744,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:103](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L103)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:103
 
 ---
 
@@ -894,8 +762,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L17)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:17
 
 ---
 
@@ -913,8 +780,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:91
 
 ---
 
@@ -935,8 +801,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:25
 
 ---
 
@@ -957,8 +822,7 @@ _any_, `others`: _any_[], ...`extras`: _any_[]): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L35)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:35
 
 ---
 
@@ -976,8 +840,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:107](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L107)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:107
 
 ---
 
@@ -995,8 +858,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:111](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L111)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:111
 
 ---
 
@@ -1014,8 +876,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:115](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L115)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:115
 
 ---
 
@@ -1033,8 +894,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:119](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L119)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:119
 
 ---
 
@@ -1052,8 +912,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:123](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L123)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:123
 
 ---
 
@@ -1071,8 +930,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:127](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L127)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:127
 
 ---
 
@@ -1090,8 +948,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:143](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L143)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:143
 
 ---
 
@@ -1109,8 +966,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:147](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L147)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:147
 
 ---
 
@@ -1128,8 +984,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:131](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L131)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:131
 
 ---
 
@@ -1148,8 +1003,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:155](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L155)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:155
 
 ---
 
@@ -1167,8 +1021,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L45)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:45
 
 ---
 
@@ -1187,8 +1040,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:151](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L151)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:151
 
 ---
 
@@ -1206,8 +1058,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L49)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:49
 
 ---
 
@@ -1225,8 +1076,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:53](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L53)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:53
 
 ---
 
@@ -1244,8 +1094,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
+Defined in: @sequeljs/ast/src/mixins/FactoryMethods.ts:95
 
 ---
 
@@ -1263,8 +1112,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:159](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L159)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:159
 
 ---
 
@@ -1282,8 +1130,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:163](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L163)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:163
 
 ---
 
@@ -1301,8 +1148,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:167](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L167)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:167
 
 ---
 
@@ -1320,8 +1166,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:171](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L171)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:171
 
 ---
 
@@ -1339,8 +1184,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:175](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L175)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:175
 
 ---
 
@@ -1358,8 +1202,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:179](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L179)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:179
 
 ---
 
@@ -1380,8 +1223,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:183](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L183)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:183
 
 ---
 
@@ -1402,8 +1244,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:187](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L187)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:187
 
 ---
 
@@ -1424,8 +1265,7 @@ _boolean_): [_Grouping_](nodes.grouping.md)
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:200](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L200)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:200
 
 ---
 
@@ -1445,8 +1285,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:213](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L213)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:213
 
 ---
 
@@ -1458,8 +1297,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L21)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:21
 
 ---
 
@@ -1471,8 +1309,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L25)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:25
 
 ---
 
@@ -1490,8 +1327,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:46](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L46)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:46
 
 ---
 
@@ -1503,8 +1339,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L15)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:15
 
 ---
 
@@ -1533,8 +1368,7 @@ _boolean_): [_Grouping_](nodes.grouping.md) \|
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:292](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L292)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:292
 
 ---
 
@@ -1552,8 +1386,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:217](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L217)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:217
 
 ---
 
@@ -1571,8 +1404,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:221](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L221)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:221
 
 ---
 
@@ -1590,8 +1422,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:225](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L225)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:225
 
 ---
 
@@ -1609,8 +1440,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:241](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L241)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:241
 
 ---
 
@@ -1628,8 +1458,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:245](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L245)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:245
 
 ---
 
@@ -1647,8 +1476,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:229](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L229)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:229
 
 ---
 
@@ -1672,8 +1500,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/NodeMethods.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L19)
+Defined in: @sequeljs/ast/src/mixins/NodeMethods.ts:19
 
 ---
 
@@ -1691,8 +1518,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:253](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L253)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:253
 
 ---
 
@@ -1710,8 +1536,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Predications.ts:249](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Predications.ts#L249)
+Defined in: @sequeljs/ast/src/mixins/Predications.ts:249
 
 ---
 
@@ -1729,8 +1554,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Math.ts:50](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Math.ts#L50)
+Defined in: @sequeljs/ast/src/mixins/Math.ts:50
 
 ---
 
@@ -1742,8 +1566,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/Expressions.ts:29](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/Expressions.ts#L29)
+Defined in: @sequeljs/ast/src/mixins/Expressions.ts:29
 
 ---
 
@@ -1762,8 +1585,7 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/nodes/Node.ts:16](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Node.ts#L16)
+Defined in: @sequeljs/ast/src/nodes/Node.ts:16
 
 ---
 
@@ -1781,5 +1603,4 @@ Defined in:
 
 Inherited from: [Matches](nodes.matches.md)
 
-Defined in:
-[src/mixins/WhenPredication.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/WhenPredication.ts#L5)
+Defined in: @sequeljs/ast/src/mixins/WhenPredication.ts:5

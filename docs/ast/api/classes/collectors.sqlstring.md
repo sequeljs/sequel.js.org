@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Collectors](../modules/collectors.md) / SQLString
+---
+id: 'collectors.sqlstring'
+title: 'Class: SQLString'
+sidebar_label: 'SQLString'
+hide_title: true
+---
 
 # Class: SQLString
 
@@ -12,26 +16,6 @@
 ## Implements
 
 - [_Collector_](../interfaces/collectors.collector.md)<_string_\>
-
-## Table of contents
-
-### Constructors
-
-- [constructor](collectors.sqlstring.md#constructor)
-
-### Properties
-
-- [bindIndex](collectors.sqlstring.md#bindindex)
-- [str](collectors.sqlstring.md#str)
-
-### Accessors
-
-- [value](collectors.sqlstring.md#value)
-
-### Methods
-
-- [addBind](collectors.sqlstring.md#addbind)
-- [append](collectors.sqlstring.md#append)
 
 ## Constructors
 
@@ -47,8 +31,7 @@
 
 • `Private` **bindIndex**: _number_= 1
 
-Defined in:
-[src/collectors/SQLString.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L5)
+Defined in: @sequeljs/ast/src/collectors/SQLString.ts:5
 
 ---
 
@@ -56,8 +39,7 @@ Defined in:
 
 • `Private` **str**: _string_= ''
 
-Defined in:
-[src/collectors/SQLString.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L7)
+Defined in: @sequeljs/ast/src/collectors/SQLString.ts:7
 
 ## Accessors
 
@@ -67,8 +49,7 @@ Defined in:
 
 **Returns:** _string_
 
-Defined in:
-[src/collectors/SQLString.ts:9](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L9)
+Defined in: @sequeljs/ast/src/collectors/SQLString.ts:9
 
 ## Methods
 
@@ -87,8 +68,7 @@ Defined in:
 
 **Returns:** [_SQLString_](collectors.sqlstring.md)
 
-Defined in:
-[src/collectors/SQLString.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L13)
+Defined in: @sequeljs/ast/src/collectors/SQLString.ts:13
 
 ---
 
@@ -106,5 +86,4 @@ Defined in:
 
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
-Defined in:
-[src/collectors/SQLString.ts:20](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L20)
+Defined in: @sequeljs/ast/src/collectors/SQLString.ts:20

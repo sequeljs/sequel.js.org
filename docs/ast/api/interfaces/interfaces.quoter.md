@@ -1,5 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) /
-[Interfaces](../modules/interfaces.md) / Quoter
+---
+id: 'interfaces.quoter'
+title: 'Interface: Quoter'
+sidebar_label: 'Quoter'
+hide_title: true
+---
 
 # Interface: Quoter
 
@@ -10,14 +14,6 @@
 - **Quoter**
 
   ↳ [_Connection_](interfaces.connection.md)
-
-## Table of contents
-
-### Methods
-
-- [quote](interfaces.quoter.md#quote)
-- [quoteColumnName](interfaces.quoter.md#quotecolumnname)
-- [quoteTableName](interfaces.quoter.md#quotetablename)
 
 ## Methods
 
@@ -34,8 +30,7 @@
 
 **Returns:** _string_ \| _number_
 
-Defined in:
-[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L6)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:6
 
 ---
 
@@ -52,8 +47,7 @@ Defined in:
 
 **Returns:** _string_
 
-Defined in:
-[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L8)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:8
 
 ---
 
@@ -70,5 +64,4 @@ Defined in:
 
 **Returns:** _string_
 
-Defined in:
-[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L10)
+Defined in: @sequeljs/ast/src/interfaces/Quoter.ts:10

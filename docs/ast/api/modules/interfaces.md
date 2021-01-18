@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Interfaces
+---
+id: 'interfaces'
+title: 'Namespace: Interfaces'
+sidebar_label: 'Interfaces'
+hide_title: true
+---
 
 # Namespace: Interfaces
 
@@ -11,10 +16,6 @@
 - [Quoter](../interfaces/interfaces.quoter.md)
 - [TypeCaster](../interfaces/interfaces.typecaster.md)
 
-### Type aliases
-
-- [Relation](interfaces.md#relation)
-
 ## Type aliases
 
 ### Relation
@@ -22,5 +23,4 @@
 Ƭ **Relation**: [_Table_](../classes/table.md) \|
 [_TableAlias_](../classes/nodes.tablealias.md)
 
-Defined in:
-[src/interfaces/Relation.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Relation.ts#L5)
+Defined in: @sequeljs/ast/src/interfaces/Relation.ts:5

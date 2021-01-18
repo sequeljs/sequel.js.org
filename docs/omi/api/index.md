@@ -1,5 +1,9 @@
 ---
-title: About
+id: 'index'
+title: '@sequeljs/omi'
+slug: '/omi/api'
+sidebar_label: 'About'
+hide_title: true
 ---
 
 @sequeljs/omi / [Exports](modules.md)

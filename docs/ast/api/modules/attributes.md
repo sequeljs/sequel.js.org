@@ -1,4 +1,9 @@
-[@sequeljs/ast](../README.md) / [Exports](../modules.md) / Attributes
+---
+id: 'attributes'
+title: 'Namespace: Attributes'
+sidebar_label: 'Attributes'
+hide_title: true
+---
 
 # Namespace: Attributes
 
