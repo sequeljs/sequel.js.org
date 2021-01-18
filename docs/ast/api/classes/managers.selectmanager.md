@@ -3,6 +3,8 @@
 
 # Class: SelectManager
 
+[Managers](../modules/managers.md).SelectManager
+
 ## Hierarchy
 
 - [_TreeManager_](managers.treemanager.md)<[_SelectManager_](managers.selectmanager.md),
@@ -12,7 +14,7 @@
 
   ↳ **SelectManager**
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -101,7 +103,7 @@
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:99](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L99)
+[src/managers/SelectManager.ts:99](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L99)
 
 ## Properties
 
@@ -113,7 +115,7 @@ Inherited from:
 [TreeManager](managers.treemanager.md).[ast](managers.treemanager.md#ast)
 
 Defined in:
-[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L15)
+[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L15)
 
 ---
 
@@ -125,7 +127,7 @@ Overrides:
 [TreeManager](managers.treemanager.md).[ctx](managers.treemanager.md#ctx)
 
 Defined in:
-[src/managers/SelectManager.ts:47](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L47)
+[src/managers/SelectManager.ts:47](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L47)
 
 ## Accessors
 
@@ -136,7 +138,7 @@ Defined in:
 **Returns:** _any_[]
 
 Defined in:
-[src/managers/SelectManager.ts:49](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L49)
+[src/managers/SelectManager.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L49)
 
 ---
 
@@ -147,7 +149,7 @@ Defined in:
 **Returns:** [_SelectCore_](nodes.selectcore.md)[]
 
 Defined in:
-[src/managers/SelectManager.ts:53](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L53)
+[src/managers/SelectManager.ts:53](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L53)
 
 ---
 
@@ -158,7 +160,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:57](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L57)
+[src/managers/SelectManager.ts:57](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L57)
 
 ---
 
@@ -169,7 +171,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:61](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L61)
+[src/managers/SelectManager.ts:61](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L61)
 
 • **limit**(`limit`: _any_): _void_
 
@@ -182,7 +184,7 @@ Defined in:
 **Returns:** _void_
 
 Defined in:
-[src/managers/SelectManager.ts:65](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L65)
+[src/managers/SelectManager.ts:65](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L65)
 
 ---
 
@@ -193,7 +195,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:69](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L69)
+[src/managers/SelectManager.ts:69](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L69)
 
 ---
 
@@ -204,7 +206,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:73](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L73)
+[src/managers/SelectManager.ts:73](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L73)
 
 • **offset**(`amount`: _any_): _void_
 
@@ -217,7 +219,7 @@ Defined in:
 **Returns:** _void_
 
 Defined in:
-[src/managers/SelectManager.ts:77](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L77)
+[src/managers/SelectManager.ts:77](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L77)
 
 ---
 
@@ -228,7 +230,7 @@ Defined in:
 **Returns:** _any_[]
 
 Defined in:
-[src/managers/SelectManager.ts:81](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L81)
+[src/managers/SelectManager.ts:81](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L81)
 
 ---
 
@@ -239,7 +241,7 @@ Defined in:
 **Returns:** _any_[]
 
 Defined in:
-[src/managers/SelectManager.ts:85](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L85)
+[src/managers/SelectManager.ts:85](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L85)
 
 • **projections**(`projections`: _any_[]): _void_
 
@@ -252,7 +254,7 @@ Defined in:
 **Returns:** _void_
 
 Defined in:
-[src/managers/SelectManager.ts:89](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L89)
+[src/managers/SelectManager.ts:89](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L89)
 
 ---
 
@@ -263,7 +265,7 @@ Defined in:
 **Returns:** [_JoinSource_](nodes.joinsource.md)
 
 Defined in:
-[src/managers/SelectManager.ts:93](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L93)
+[src/managers/SelectManager.ts:93](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L93)
 
 ---
 
@@ -274,7 +276,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:97](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L97)
+[src/managers/SelectManager.ts:97](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L97)
 
 ## Methods
 
@@ -291,7 +293,7 @@ Defined in:
 **Returns:** [_TableAlias_](nodes.tablealias.md)
 
 Defined in:
-[src/managers/SelectManager.ts:127](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L127)
+[src/managers/SelectManager.ts:127](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L127)
 
 ---
 
@@ -311,7 +313,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L22)
+[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
 
 ---
 
@@ -328,7 +330,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/managers/SelectManager.ts:109](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L109)
+[src/managers/SelectManager.ts:109](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L109)
 
 ---
 
@@ -345,7 +347,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:131](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L131)
+[src/managers/SelectManager.ts:131](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L131)
 
 ---
 
@@ -356,7 +358,7 @@ Defined in:
 **Returns:** [_DeleteManager_](managers.deletemanager.md)
 
 Defined in:
-[src/mixins/CRUD.ts:49](https://github.com/sequeljs/ast/blob/6632050/src/mixins/CRUD.ts#L49)
+[src/mixins/CRUD.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L49)
 
 ---
 
@@ -374,7 +376,7 @@ Defined in:
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
 Defined in:
-[src/mixins/CRUD.ts:37](https://github.com/sequeljs/ast/blob/6632050/src/mixins/CRUD.ts#L37)
+[src/mixins/CRUD.ts:37](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L37)
 
 ---
 
@@ -393,7 +395,7 @@ Defined in:
 **Returns:** [_UpdateManager_](managers.updatemanager.md)
 
 Defined in:
-[src/mixins/CRUD.ts:15](https://github.com/sequeljs/ast/blob/6632050/src/mixins/CRUD.ts#L15)
+[src/mixins/CRUD.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L15)
 
 ---
 
@@ -412,7 +414,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L26)
+[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
 
 ---
 
@@ -425,7 +427,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L30)
+[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
 
 ---
 
@@ -436,7 +438,7 @@ Defined in:
 **Returns:** [_InsertManager_](managers.insertmanager.md)
 
 Defined in:
-[src/mixins/CRUD.ts:45](https://github.com/sequeljs/ast/blob/6632050/src/mixins/CRUD.ts#L45)
+[src/mixins/CRUD.ts:45](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/CRUD.ts#L45)
 
 ---
 
@@ -457,7 +459,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L34)
+[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -475,7 +477,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L35)
+[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -496,7 +498,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L39)
+[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -516,7 +518,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L44)
+[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -536,7 +538,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L49)
+[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -557,7 +559,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L54)
+[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -577,7 +579,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L59)
+[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
 
 ---
 
@@ -596,7 +598,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L72)
+[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
 
 ---
 
@@ -617,7 +619,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L76)
+[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
 
 ---
 
@@ -640,7 +642,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L80)
+[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
 
 ---
 
@@ -653,7 +655,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L87)
+[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
 
 ---
 
@@ -671,7 +673,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:137](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L137)
+[src/managers/SelectManager.ts:137](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L137)
 
 ---
 
@@ -688,7 +690,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:143](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L143)
+[src/managers/SelectManager.ts:143](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L143)
 
 ---
 
@@ -707,7 +709,7 @@ Defined in:
 **Returns:** [_Except_](nodes.except.md)
 
 Defined in:
-[src/managers/SelectManager.ts:149](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L149)
+[src/managers/SelectManager.ts:149](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L149)
 
 ---
 
@@ -718,7 +720,7 @@ Defined in:
 **Returns:** [_Exists_](nodes.exists.md)
 
 Defined in:
-[src/managers/SelectManager.ts:153](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L153)
+[src/managers/SelectManager.ts:153](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L153)
 
 ---
 
@@ -735,7 +737,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:157](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L157)
+[src/managers/SelectManager.ts:157](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L157)
 
 ---
 
@@ -752,7 +754,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:169](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L169)
+[src/managers/SelectManager.ts:169](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L169)
 
 ---
 
@@ -771,7 +773,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L91)
+[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
 
 ---
 
@@ -788,7 +790,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:183](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L183)
+[src/managers/SelectManager.ts:183](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L183)
 
 ---
 
@@ -808,7 +810,7 @@ Defined in:
 **Returns:** [_Intersect_](nodes.intersect.md)
 
 Defined in:
-[src/managers/SelectManager.ts:189](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L189)
+[src/managers/SelectManager.ts:189](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L189)
 
 ---
 
@@ -829,7 +831,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:193](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L193)
+[src/managers/SelectManager.ts:193](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L193)
 
 ---
 
@@ -846,7 +848,7 @@ Defined in:
 **Returns:** [_Lateral_](nodes.lateral.md)
 
 Defined in:
-[src/managers/SelectManager.ts:218](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L218)
+[src/managers/SelectManager.ts:218](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L218)
 
 ---
 
@@ -863,7 +865,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:224](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L224)
+[src/managers/SelectManager.ts:224](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L224)
 
 ---
 
@@ -882,7 +884,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L95)
+[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
 
 ---
 
@@ -901,7 +903,7 @@ Defined in:
 **Returns:** [_Except_](nodes.except.md)
 
 Defined in:
-[src/managers/SelectManager.ts:237](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L237)
+[src/managers/SelectManager.ts:237](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L237)
 
 ---
 
@@ -918,7 +920,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:241](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L241)
+[src/managers/SelectManager.ts:241](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L241)
 
 ---
 
@@ -936,7 +938,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:249](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L249)
+[src/managers/SelectManager.ts:249](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L249)
 
 ---
 
@@ -953,7 +955,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:257](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L257)
+[src/managers/SelectManager.ts:257](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L257)
 
 ---
 
@@ -972,7 +974,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:265](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L265)
+[src/managers/SelectManager.ts:265](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L265)
 
 ---
 
@@ -990,7 +992,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:269](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L269)
+[src/managers/SelectManager.ts:269](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L269)
 
 ---
 
@@ -1007,7 +1009,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:279](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L279)
+[src/managers/SelectManager.ts:279](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L279)
 
 ---
 
@@ -1024,7 +1026,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:285](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L285)
+[src/managers/SelectManager.ts:285](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L285)
 
 ---
 
@@ -1044,7 +1046,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L23)
+[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L23)
 
 ---
 
@@ -1063,7 +1065,7 @@ Defined in:
 **Returns:** [_Union_](nodes.union.md)
 
 Defined in:
-[src/managers/SelectManager.ts:295](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L295)
+[src/managers/SelectManager.ts:295](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L295)
 
 ---
 
@@ -1083,7 +1085,7 @@ Defined in:
 **Returns:** [_UnionAll_](nodes.unionall.md)
 
 Defined in:
-[src/managers/SelectManager.ts:299](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L299)
+[src/managers/SelectManager.ts:299](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L299)
 
 ---
 
@@ -1102,7 +1104,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L44)
+[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L44)
 
 ---
 
@@ -1121,7 +1123,7 @@ Defined in:
 **Returns:** _null_ \| [_SQLLiteral_](nodes.sqlliteral.md)
 
 Defined in:
-[src/managers/SelectManager.ts:303](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L303)
+[src/managers/SelectManager.ts:303](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L303)
 
 ---
 
@@ -1138,7 +1140,7 @@ Defined in:
 **Returns:** [_NamedWindow_](nodes.namedwindow.md)
 
 Defined in:
-[src/managers/SelectManager.ts:321](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L321)
+[src/managers/SelectManager.ts:321](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L321)
 
 ---
 
@@ -1156,7 +1158,7 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:329](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L329)
+[src/managers/SelectManager.ts:329](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L329)
 
 ---
 
@@ -1174,4 +1176,4 @@ Defined in:
 **Returns:** [_SelectManager_](managers.selectmanager.md)
 
 Defined in:
-[src/managers/SelectManager.ts:337](https://github.com/sequeljs/ast/blob/6632050/src/managers/SelectManager.ts#L337)
+[src/managers/SelectManager.ts:337](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/SelectManager.ts#L337)

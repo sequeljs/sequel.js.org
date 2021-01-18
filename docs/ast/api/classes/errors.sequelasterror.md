@@ -3,6 +3,8 @@
 
 # Class: SequelASTError
 
+[Errors](../modules/errors.md).SequelASTError
+
 ## Hierarchy
 
 - _Error_
@@ -13,7 +15,7 @@
 
   ↳↳ [_VisitorError_](errors.visitorerror.md)
 
-## Index
+## Table of contents
 
 ### Constructors
 

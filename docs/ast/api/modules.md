@@ -6,7 +6,7 @@ title: API Reference
 
 # @sequeljs/ast
 
-## Index
+## Table of contents
 
 ### Namespaces
 
@@ -30,7 +30,7 @@ title: API Reference
 
 ### SequelAST
 
-• `Const` **SequelAST**: object
+• `Const` **SequelAST**: _object_
 
 #### Type declaration:
 
@@ -39,4 +39,4 @@ title: API Reference
 | `engine` | [_Engine_](interfaces/interfaces.engine.md) \| _null_ | [_Engine_](interfaces/interfaces.engine.md) \| _null_ |
 
 Defined in:
-[src/SequelAST.ts:3](https://github.com/sequeljs/ast/blob/6632050/src/SequelAST.ts#L3)
+[src/SequelAST.ts:3](https://github.com/sequeljs/ast/blob/8de61b1/src/SequelAST.ts#L3)

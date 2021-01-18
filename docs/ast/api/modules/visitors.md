@@ -2,7 +2,7 @@
 
 # Namespace: Visitors
 
-## Index
+## Table of contents
 
 ### Classes
 
@@ -31,7 +31,7 @@
 | `T`  |
 
 Defined in:
-[src/visitors/VisitFunction.ts:5](https://github.com/sequeljs/ast/blob/6632050/src/visitors/VisitFunction.ts#L5)
+[src/visitors/VisitFunction.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/VisitFunction.ts#L5)
 
 ---
 
@@ -44,4 +44,4 @@ Defined in:
 [_SelectManager_](../classes/managers.selectmanager.md)
 
 Defined in:
-[src/visitors/Visitable.ts:10](https://github.com/sequeljs/ast/blob/6632050/src/visitors/Visitable.ts#L10)
+[src/visitors/Visitable.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitable.ts#L10)

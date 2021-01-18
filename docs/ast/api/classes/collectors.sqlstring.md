@@ -3,6 +3,8 @@
 
 # Class: SQLString
 
+[Collectors](../modules/collectors.md).SQLString
+
 ## Hierarchy
 
 - **SQLString**
@@ -11,7 +13,7 @@
 
 - [_Collector_](../interfaces/collectors.collector.md)<_string_\>
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -46,7 +48,7 @@
 • `Private` **bindIndex**: _number_= 1
 
 Defined in:
-[src/collectors/SQLString.ts:5](https://github.com/sequeljs/ast/blob/6632050/src/collectors/SQLString.ts#L5)
+[src/collectors/SQLString.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L5)
 
 ---
 
@@ -55,7 +57,7 @@ Defined in:
 • `Private` **str**: _string_= ''
 
 Defined in:
-[src/collectors/SQLString.ts:7](https://github.com/sequeljs/ast/blob/6632050/src/collectors/SQLString.ts#L7)
+[src/collectors/SQLString.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L7)
 
 ## Accessors
 
@@ -66,7 +68,7 @@ Defined in:
 **Returns:** _string_
 
 Defined in:
-[src/collectors/SQLString.ts:9](https://github.com/sequeljs/ast/blob/6632050/src/collectors/SQLString.ts#L9)
+[src/collectors/SQLString.ts:9](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L9)
 
 ## Methods
 
@@ -86,7 +88,7 @@ Defined in:
 **Returns:** [_SQLString_](collectors.sqlstring.md)
 
 Defined in:
-[src/collectors/SQLString.ts:13](https://github.com/sequeljs/ast/blob/6632050/src/collectors/SQLString.ts#L13)
+[src/collectors/SQLString.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L13)
 
 ---
 
@@ -105,4 +107,4 @@ Defined in:
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
 Defined in:
-[src/collectors/SQLString.ts:20](https://github.com/sequeljs/ast/blob/6632050/src/collectors/SQLString.ts#L20)
+[src/collectors/SQLString.ts:20](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/SQLString.ts#L20)

@@ -3,6 +3,8 @@
 
 # Class: Composite<L, R\>
 
+[Collectors](../modules/collectors.md).Composite
+
 ## Type parameters
 
 | Name | Type                                                              |
@@ -19,7 +21,7 @@
 - [_Collector_](../interfaces/collectors.collector.md)<[L[*value*],
   R[*value*]]\>
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -63,7 +65,7 @@
 **Returns:** [_Composite_](collectors.composite.md)<L, R\>
 
 Defined in:
-[src/collectors/Composite.ts:14](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L14)
+[src/collectors/Composite.ts:14](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L14)
 
 ## Properties
 
@@ -72,7 +74,7 @@ Defined in:
 • `Protected` `Readonly` **left**: L
 
 Defined in:
-[src/collectors/Composite.ts:8](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L8)
+[src/collectors/Composite.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L8)
 
 ---
 
@@ -81,7 +83,7 @@ Defined in:
 • `Protected` `Readonly` **right**: R
 
 Defined in:
-[src/collectors/Composite.ts:10](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L10)
+[src/collectors/Composite.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L10)
 
 ## Accessors
 
@@ -92,7 +94,7 @@ Defined in:
 **Returns:** [L[*value*], L[*value*]]
 
 Defined in:
-[src/collectors/Composite.ts:12](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L12)
+[src/collectors/Composite.ts:12](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L12)
 
 ## Methods
 
@@ -114,7 +116,7 @@ Defined in:
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
 Defined in:
-[src/collectors/Composite.ts:21](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L21)
+[src/collectors/Composite.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L21)
 
 ---
 
@@ -133,4 +135,4 @@ Defined in:
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
 Defined in:
-[src/collectors/Composite.ts:28](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Composite.ts#L28)
+[src/collectors/Composite.ts:28](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Composite.ts#L28)

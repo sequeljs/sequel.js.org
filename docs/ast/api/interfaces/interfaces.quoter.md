@@ -3,13 +3,15 @@
 
 # Interface: Quoter
 
+[Interfaces](../modules/interfaces.md).Quoter
+
 ## Hierarchy
 
 - **Quoter**
 
   ↳ [_Connection_](interfaces.connection.md)
 
-## Index
+## Table of contents
 
 ### Methods
 
@@ -33,7 +35,7 @@
 **Returns:** _string_ \| _number_
 
 Defined in:
-[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L6)
+[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L6)
 
 ---
 
@@ -51,7 +53,7 @@ Defined in:
 **Returns:** _string_
 
 Defined in:
-[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L8)
+[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L8)
 
 ---
 
@@ -69,4 +71,4 @@ Defined in:
 **Returns:** _string_
 
 Defined in:
-[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L10)
+[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L10)

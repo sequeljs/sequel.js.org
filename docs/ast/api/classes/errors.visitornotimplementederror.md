@@ -3,13 +3,15 @@
 
 # Class: VisitorNotImplementedError
 
+[Errors](../modules/errors.md).VisitorNotImplementedError
+
 ## Hierarchy
 
 - [_VisitorError_](errors.visitorerror.md)
 
   ↳ **VisitorNotImplementedError**
 
-## Index
+## Table of contents
 
 ### Constructors
 

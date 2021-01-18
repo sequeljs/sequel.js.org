@@ -3,6 +3,8 @@
 
 # Class: VisitorError
 
+[Errors](../modules/errors.md).VisitorError
+
 ## Hierarchy
 
 - [_SequelASTError_](errors.sequelasterror.md)
@@ -17,7 +19,7 @@
 
   ↳↳ [_VisitorNotSupportedError_](errors.visitornotsupportederror.md)
 
-## Index
+## Table of contents
 
 ### Constructors
 

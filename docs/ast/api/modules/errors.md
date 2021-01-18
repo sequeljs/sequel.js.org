@@ -2,7 +2,7 @@
 
 # Namespace: Errors
 
-## Index
+## Table of contents
 
 ### Classes
 

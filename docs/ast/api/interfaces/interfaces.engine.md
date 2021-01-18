@@ -3,11 +3,13 @@
 
 # Interface: Engine
 
+[Interfaces](../modules/interfaces.md).Engine
+
 ## Hierarchy
 
 - **Engine**
 
-## Index
+## Table of contents
 
 ### Properties
 
@@ -20,4 +22,4 @@
 • **connection**: [_Connection_](interfaces.connection.md)
 
 Defined in:
-[src/interfaces/Engine.ts:4](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Engine.ts#L4)
+[src/interfaces/Engine.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Engine.ts#L4)

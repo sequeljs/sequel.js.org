@@ -2,7 +2,7 @@
 
 # Namespace: Collectors
 
-## Index
+## Table of contents
 
 ### Classes
 
@@ -26,4 +26,4 @@
 Ƭ **Binder**: (`i`: _number_) => _string_
 
 Defined in:
-[src/collectors/Binder.ts:1](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Binder.ts#L1)
+[src/collectors/Binder.ts:1](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Binder.ts#L1)

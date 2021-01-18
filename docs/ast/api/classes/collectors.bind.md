@@ -3,6 +3,8 @@
 
 # Class: Bind
 
+[Collectors](../modules/collectors.md).Bind
+
 ## Hierarchy
 
 - **Bind**
@@ -11,7 +13,7 @@
 
 - [_Collector_](../interfaces/collectors.collector.md)<_string_[]\>
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -45,7 +47,7 @@
 • `Private` **strBinds**: _string_[]
 
 Defined in:
-[src/collectors/Bind.ts:5](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Bind.ts#L5)
+[src/collectors/Bind.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L5)
 
 ## Accessors
 
@@ -56,7 +58,7 @@ Defined in:
 **Returns:** _string_[]
 
 Defined in:
-[src/collectors/Bind.ts:7](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Bind.ts#L7)
+[src/collectors/Bind.ts:7](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L7)
 
 ## Methods
 
@@ -77,7 +79,7 @@ Defined in:
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
 Defined in:
-[src/collectors/Bind.ts:11](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Bind.ts#L11)
+[src/collectors/Bind.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L11)
 
 ---
 
@@ -96,4 +98,4 @@ Defined in:
 Implementation of: [Collector](../interfaces/collectors.collector.md)
 
 Defined in:
-[src/collectors/Bind.ts:17](https://github.com/sequeljs/ast/blob/6632050/src/collectors/Bind.ts#L17)
+[src/collectors/Bind.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/collectors/Bind.ts#L17)

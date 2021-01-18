@@ -2,7 +2,7 @@
 
 # Namespace: Nodes
 
-## Index
+## Table of contents
 
 ### Classes
 
@@ -124,4 +124,4 @@
 [_UpdateStatement_](../classes/nodes.updatestatement.md)
 
 Defined in:
-[src/nodes/Statement.ts:6](https://github.com/sequeljs/ast/blob/6632050/src/nodes/Statement.ts#L6)
+[src/nodes/Statement.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Statement.ts#L6)

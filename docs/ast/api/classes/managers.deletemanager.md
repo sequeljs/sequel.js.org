@@ -3,6 +3,8 @@
 
 # Class: DeleteManager
 
+[Managers](../modules/managers.md).DeleteManager
+
 ## Hierarchy
 
 - [_TreeManager_](managers.treemanager.md)<[_DeleteManager_](managers.deletemanager.md),
@@ -12,7 +14,7 @@
 
   ↳ **DeleteManager**
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -58,7 +60,7 @@
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/DeleteManager.ts:13](https://github.com/sequeljs/ast/blob/6632050/src/managers/DeleteManager.ts#L13)
+[src/managers/DeleteManager.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/DeleteManager.ts#L13)
 
 ## Properties
 
@@ -70,7 +72,7 @@ Inherited from:
 [TreeManager](managers.treemanager.md).[ast](managers.treemanager.md#ast)
 
 Defined in:
-[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L15)
+[src/managers/TreeManager.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L15)
 
 ---
 
@@ -82,7 +84,7 @@ Overrides:
 [TreeManager](managers.treemanager.md).[ctx](managers.treemanager.md#ctx)
 
 Defined in:
-[src/managers/DeleteManager.ts:13](https://github.com/sequeljs/ast/blob/6632050/src/managers/DeleteManager.ts#L13)
+[src/managers/DeleteManager.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/DeleteManager.ts#L13)
 
 ## Accessors
 
@@ -93,7 +95,7 @@ Defined in:
 **Returns:** _any_
 
 Defined in:
-[src/mixins/StatementMethods.ts:13](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L13)
+[src/mixins/StatementMethods.ts:13](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L13)
 
 • **key**(`val`: _any_): _void_
 
@@ -106,7 +108,7 @@ Defined in:
 **Returns:** _void_
 
 Defined in:
-[src/mixins/StatementMethods.ts:17](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L17)
+[src/mixins/StatementMethods.ts:17](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L17)
 
 ---
 
@@ -123,7 +125,7 @@ Defined in:
 **Returns:** _void_
 
 Defined in:
-[src/mixins/StatementMethods.ts:21](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L21)
+[src/mixins/StatementMethods.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L21)
 
 ## Methods
 
@@ -143,7 +145,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L22)
+[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
 
 ---
 
@@ -162,7 +164,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L26)
+[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
 
 ---
 
@@ -175,7 +177,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L30)
+[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
 
 ---
 
@@ -196,7 +198,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L34)
+[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -214,7 +216,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L35)
+[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -235,7 +237,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L39)
+[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -255,7 +257,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L44)
+[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -275,7 +277,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L49)
+[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -296,7 +298,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L54)
+[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -316,7 +318,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L59)
+[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
 
 ---
 
@@ -335,7 +337,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L72)
+[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
 
 ---
 
@@ -356,7 +358,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L76)
+[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
 
 ---
 
@@ -379,7 +381,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L80)
+[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
 
 ---
 
@@ -392,7 +394,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L87)
+[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
 
 ---
 
@@ -412,7 +414,7 @@ Defined in:
 **Returns:** [_DeleteManager_](managers.deletemanager.md)
 
 Defined in:
-[src/managers/DeleteManager.ts:21](https://github.com/sequeljs/ast/blob/6632050/src/managers/DeleteManager.ts#L21)
+[src/managers/DeleteManager.ts:21](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/DeleteManager.ts#L21)
 
 ---
 
@@ -431,7 +433,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L91)
+[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
 
 ---
 
@@ -450,7 +452,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L95)
+[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
 
 ---
 
@@ -468,7 +470,7 @@ _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 **Returns:** _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 
 Defined in:
-[src/mixins/StatementMethods.ts:25](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L25)
+[src/mixins/StatementMethods.ts:25](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L25)
 
 ---
 
@@ -486,7 +488,7 @@ _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 **Returns:** _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 
 Defined in:
-[src/mixins/StatementMethods.ts:33](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L33)
+[src/mixins/StatementMethods.ts:33](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L33)
 
 ---
 
@@ -504,7 +506,7 @@ _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 **Returns:** _default_<[_DeleteStatement_](nodes.deletestatement.md)\>
 
 Defined in:
-[src/mixins/StatementMethods.ts:39](https://github.com/sequeljs/ast/blob/6632050/src/mixins/StatementMethods.ts#L39)
+[src/mixins/StatementMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/StatementMethods.ts#L39)
 
 ---
 
@@ -524,7 +526,7 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L23)
+[src/managers/TreeManager.ts:23](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L23)
 
 ---
 
@@ -543,4 +545,4 @@ Defined in:
 Inherited from: [TreeManager](managers.treemanager.md)
 
 Defined in:
-[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/6632050/src/managers/TreeManager.ts#L44)
+[src/managers/TreeManager.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/managers/TreeManager.ts#L44)

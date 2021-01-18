@@ -3,13 +3,15 @@
 
 # Class: BindParam
 
+[Nodes](../modules/nodes.md).BindParam
+
 ## Hierarchy
 
 - [_Node_](nodes.node.md)
 
   ↳ **BindParam**
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -55,7 +57,7 @@
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/nodes/BindParam.ts:4](https://github.com/sequeljs/ast/blob/6632050/src/nodes/BindParam.ts#L4)
+[src/nodes/BindParam.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/BindParam.ts#L4)
 
 ## Properties
 
@@ -64,7 +66,7 @@ Defined in:
 • `Readonly` **value**: _any_
 
 Defined in:
-[src/nodes/BindParam.ts:4](https://github.com/sequeljs/ast/blob/6632050/src/nodes/BindParam.ts#L4)
+[src/nodes/BindParam.ts:4](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/BindParam.ts#L4)
 
 ## Methods
 
@@ -83,7 +85,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/NodeMethods.ts:11](https://github.com/sequeljs/ast/blob/6632050/src/mixins/NodeMethods.ts#L11)
+[src/mixins/NodeMethods.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L11)
 
 ---
 
@@ -103,7 +105,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L22)
+[src/mixins/FactoryMethods.ts:22](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L22)
 
 ---
 
@@ -122,7 +124,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L26)
+[src/mixins/FactoryMethods.ts:26](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L26)
 
 ---
 
@@ -135,7 +137,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L30)
+[src/mixins/FactoryMethods.ts:30](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L30)
 
 ---
 
@@ -156,7 +158,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L34)
+[src/mixins/FactoryMethods.ts:34](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L34)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -174,7 +176,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L35)
+[src/mixins/FactoryMethods.ts:35](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L35)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -195,7 +197,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L39)
+[src/mixins/FactoryMethods.ts:39](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L39)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -215,7 +217,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L44)
+[src/mixins/FactoryMethods.ts:44](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L44)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -235,7 +237,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L49)
+[src/mixins/FactoryMethods.ts:49](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L49)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -256,7 +258,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L54)
+[src/mixins/FactoryMethods.ts:54](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L54)
 
 ▸ **createJoin**(`to`: _null_ \| _string_ \| [_Table_](table.md) \|
 [_TableAlias_](nodes.tablealias.md) \| [_SQLLiteral_](nodes.sqlliteral.md),
@@ -276,7 +278,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L59)
+[src/mixins/FactoryMethods.ts:59](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L59)
 
 ---
 
@@ -295,7 +297,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L72)
+[src/mixins/FactoryMethods.ts:72](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L72)
 
 ---
 
@@ -316,7 +318,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L76)
+[src/mixins/FactoryMethods.ts:76](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L76)
 
 ---
 
@@ -339,7 +341,7 @@ _string_ \| [_SQLLiteral_](nodes.sqlliteral.md)):
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L80)
+[src/mixins/FactoryMethods.ts:80](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L80)
 
 ---
 
@@ -352,7 +354,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L87)
+[src/mixins/FactoryMethods.ts:87](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L87)
 
 ---
 
@@ -371,7 +373,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L91)
+[src/mixins/FactoryMethods.ts:91](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L91)
 
 ---
 
@@ -382,7 +384,7 @@ Defined in:
 **Returns:** _boolean_
 
 Defined in:
-[src/nodes/BindParam.ts:12](https://github.com/sequeljs/ast/blob/6632050/src/nodes/BindParam.ts#L12)
+[src/nodes/BindParam.ts:12](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/BindParam.ts#L12)
 
 ---
 
@@ -393,7 +395,7 @@ Defined in:
 **Returns:** _boolean_
 
 Defined in:
-[src/nodes/BindParam.ts:16](https://github.com/sequeljs/ast/blob/6632050/src/nodes/BindParam.ts#L16)
+[src/nodes/BindParam.ts:16](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/BindParam.ts#L16)
 
 ---
 
@@ -412,7 +414,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/6632050/src/mixins/FactoryMethods.ts#L95)
+[src/mixins/FactoryMethods.ts:95](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/FactoryMethods.ts#L95)
 
 ---
 
@@ -425,7 +427,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/NodeMethods.ts:15](https://github.com/sequeljs/ast/blob/6632050/src/mixins/NodeMethods.ts#L15)
+[src/mixins/NodeMethods.ts:15](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L15)
 
 ---
 
@@ -450,7 +452,7 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/mixins/NodeMethods.ts:19](https://github.com/sequeljs/ast/blob/6632050/src/mixins/NodeMethods.ts#L19)
+[src/mixins/NodeMethods.ts:19](https://github.com/sequeljs/ast/blob/8de61b1/src/mixins/NodeMethods.ts#L19)
 
 ---
 
@@ -470,4 +472,4 @@ Defined in:
 Inherited from: [Node](nodes.node.md)
 
 Defined in:
-[src/nodes/Node.ts:16](https://github.com/sequeljs/ast/blob/6632050/src/nodes/Node.ts#L16)
+[src/nodes/Node.ts:16](https://github.com/sequeljs/ast/blob/8de61b1/src/nodes/Node.ts#L16)

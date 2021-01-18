@@ -3,13 +3,15 @@
 
 # Interface: Connection
 
+[Interfaces](../modules/interfaces.md).Connection
+
 ## Hierarchy
 
 - [_Quoter_](interfaces.quoter.md)
 
   ↳ **Connection**
 
-## Index
+## Table of contents
 
 ### Properties
 
@@ -30,7 +32,7 @@
 • **inClauseLength**: _null_ \| _number_
 
 Defined in:
-[src/interfaces/Connection.ts:6](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Connection.ts#L6)
+[src/interfaces/Connection.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L6)
 
 ---
 
@@ -39,7 +41,7 @@ Defined in:
 • **visitor**: _null_ \| [_Visitor_](../classes/visitors.visitor.md)
 
 Defined in:
-[src/interfaces/Connection.ts:8](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Connection.ts#L8)
+[src/interfaces/Connection.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L8)
 
 ## Methods
 
@@ -59,7 +61,7 @@ Defined in:
 Inherited from: [Quoter](interfaces.quoter.md)
 
 Defined in:
-[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L6)
+[src/interfaces/Quoter.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L6)
 
 ---
 
@@ -79,7 +81,7 @@ Defined in:
 Inherited from: [Quoter](interfaces.quoter.md)
 
 Defined in:
-[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L8)
+[src/interfaces/Quoter.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L8)
 
 ---
 
@@ -99,7 +101,7 @@ Defined in:
 Inherited from: [Quoter](interfaces.quoter.md)
 
 Defined in:
-[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Quoter.ts#L10)
+[src/interfaces/Quoter.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Quoter.ts#L10)
 
 ---
 
@@ -116,4 +118,4 @@ Defined in:
 **Returns:** _string_
 
 Defined in:
-[src/interfaces/Connection.ts:10](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Connection.ts#L10)
+[src/interfaces/Connection.ts:10](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Connection.ts#L10)

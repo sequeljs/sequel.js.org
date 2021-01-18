@@ -3,6 +3,8 @@
 
 # Interface: TypeCaster
 
+[Interfaces](../modules/interfaces.md).TypeCaster
+
 ## Hierarchy
 
 - **TypeCaster**
@@ -11,7 +13,7 @@
 
 - [_Table_](../classes/table.md)
 
-## Index
+## Table of contents
 
 ### Methods
 
@@ -27,7 +29,7 @@
 **Returns:** _boolean_
 
 Defined in:
-[src/interfaces/TypeCaster.ts:6](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/TypeCaster.ts#L6)
+[src/interfaces/TypeCaster.ts:6](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/TypeCaster.ts#L6)
 
 ---
 
@@ -47,4 +49,4 @@ Defined in:
 **Returns:** _string_ \| _number_
 
 Defined in:
-[src/interfaces/TypeCaster.ts:8](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/TypeCaster.ts#L8)
+[src/interfaces/TypeCaster.ts:8](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/TypeCaster.ts#L8)

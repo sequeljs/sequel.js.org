@@ -3,13 +3,15 @@
 
 # Class: VisitorNotSupportedError
 
+[Errors](../modules/errors.md).VisitorNotSupportedError
+
 ## Hierarchy
 
 - [_VisitorError_](errors.visitorerror.md)
 
   ↳ **VisitorNotSupportedError**
 
-## Index
+## Table of contents
 
 ### Constructors
 

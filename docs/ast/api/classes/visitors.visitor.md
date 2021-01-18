@@ -3,13 +3,15 @@
 
 # Class: Visitor
 
+[Visitors](../modules/visitors.md).Visitor
+
 ## Hierarchy
 
 - **Visitor**
 
   ↳ [_ToSQL_](visitors.tosql.md)
 
-## Index
+## Table of contents
 
 ### Constructors
 
@@ -55,7 +57,7 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 **Returns:** T
 
 Defined in:
-[src/visitors/Visitor.ts:11](https://github.com/sequeljs/ast/blob/6632050/src/visitors/Visitor.ts#L11)
+[src/visitors/Visitor.ts:11](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L11)
 
 ---
 
@@ -84,4 +86,4 @@ _boolean_ \| _symbol_ \| [_Attribute_](attributes.attribute.md) \|
 **Returns:** T
 
 Defined in:
-[src/visitors/Visitor.ts:18](https://github.com/sequeljs/ast/blob/6632050/src/visitors/Visitor.ts#L18)
+[src/visitors/Visitor.ts:18](https://github.com/sequeljs/ast/blob/8de61b1/src/visitors/Visitor.ts#L18)

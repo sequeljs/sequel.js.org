@@ -2,7 +2,7 @@
 
 # Namespace: Interfaces
 
-## Index
+## Table of contents
 
 ### Interfaces
 
@@ -23,4 +23,4 @@
 [_TableAlias_](../classes/nodes.tablealias.md)
 
 Defined in:
-[src/interfaces/Relation.ts:5](https://github.com/sequeljs/ast/blob/6632050/src/interfaces/Relation.ts#L5)
+[src/interfaces/Relation.ts:5](https://github.com/sequeljs/ast/blob/8de61b1/src/interfaces/Relation.ts#L5)

@@ -2,7 +2,7 @@
 
 # Namespace: Attributes
 
-## Index
+## Table of contents
 
 ### Attributes Classes
 

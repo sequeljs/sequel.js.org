@@ -2,7 +2,7 @@
 
 # Namespace: Managers
 
-## Index
+## Table of contents
 
 ### Classes
 

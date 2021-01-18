@@ -3,13 +3,15 @@
 
 # Class: EmptyJoinError
 
+[Errors](../modules/errors.md).EmptyJoinError
+
 ## Hierarchy
 
 - [_SequelASTError_](errors.sequelasterror.md)
 
   ↳ **EmptyJoinError**
 
-## Index
+## Table of contents
 
 ### Constructors
 

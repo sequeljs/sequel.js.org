@@ -3,13 +3,15 @@
 
 # Class: VisitorNotSetError
 
+[Errors](../modules/errors.md).VisitorNotSetError
+
 ## Hierarchy
 
 - [_VisitorError_](errors.visitorerror.md)
 
   ↳ **VisitorNotSetError**
 
-## Index
+## Table of contents
 
 ### Constructors
 

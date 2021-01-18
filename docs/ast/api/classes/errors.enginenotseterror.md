@@ -3,13 +3,15 @@
 
 # Class: EngineNotSetError
 
+[Errors](../modules/errors.md).EngineNotSetError
+
 ## Hierarchy
 
 - [_VisitorError_](errors.visitorerror.md)
 
   ↳ **EngineNotSetError**
 
-## Index
+## Table of contents
 
 ### Constructors
 
