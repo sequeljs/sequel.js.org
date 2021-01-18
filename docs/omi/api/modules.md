@@ -6,7 +6,7 @@ title: API Reference
 
 # @sequeljs/omi
 
-## Index
+## Table of contents
 
 ### Variables
 
@@ -16,7 +16,7 @@ title: API Reference
 
 ### SequelOMI
 
-• `Const` **SequelOMI**: object
+• `Const` **SequelOMI**: _object_
 
 #### Type declaration:
 
@@ -25,4 +25,4 @@ title: API Reference
 | `name` | _string_ | _string_ |
 
 Defined in:
-[SequelOMI.ts:1](https://github.com/sequeljs/omi/blob/439e570/src/SequelOMI.ts#L1)
+[SequelOMI.ts:1](https://github.com/sequeljs/omi/blob/203270b/src/SequelOMI.ts#L1)
