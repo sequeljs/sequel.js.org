@@ -6,7 +6,7 @@ title: API Reference
 
 # @sequeljs/orm
 
-## Index
+## Table of contents
 
 ### Variables
 
@@ -16,7 +16,7 @@ title: API Reference
 
 ### SequelORM
 
-• `Const` **SequelORM**: object
+• `Const` **SequelORM**: _object_
 
 #### Type declaration:
 
@@ -25,4 +25,4 @@ title: API Reference
 | `name` | _string_ | _string_ |
 
 Defined in:
-[SequelORM.ts:1](https://github.com/sequeljs/orm/blob/dc9e260/src/SequelORM.ts#L1)
+[SequelORM.ts:1](https://github.com/sequeljs/orm/blob/cd75c00/src/SequelORM.ts#L1)
