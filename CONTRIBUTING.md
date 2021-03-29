@@ -2,7 +2,7 @@
 
 We are open to, and grateful for, any contributions made by the community. By
 contributing to Sequel.js' documentation, you agree to abide by the
-[code of conduct](https://github.com/sequeljs/sequel.js.org/blob/master/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/sequeljs/sequel.js.org/blob/main/CODE_OF_CONDUCT.md).
 
 ## Reporting Issues and Asking Questions
 
@@ -42,7 +42,7 @@ npm run start
 - Open a new issue in the
   [Issue tracker](https://github.com/sequeljs/sequel.js.org/issues).
 - Fork the repo.
-- Create a new feature branch based off the `master` branch.
+- Create a new feature branch based off the `main` branch.
 - Submit a pull request, referencing any issues it addresses.
 
 Please try to keep your pull request focused in scope and avoid including

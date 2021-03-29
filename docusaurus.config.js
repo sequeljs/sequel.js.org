@@ -75,7 +75,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/sequeljs/sequel.js.org/edit/master/',
+          editUrl: 'https://github.com/sequeljs/sequel.js.org/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

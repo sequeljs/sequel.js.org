@@ -1,7 +1,7 @@
 # Sequel.js
 
 [![build](https://github.com/sequeljs/sequel.js.org/workflows/build/badge.svg)](https://github.com/sequeljs/sequel.js.org/)
-[![license](https://img.shields.io/github/license/sequeljs/sequel.js.org)](https://github.com/sequeljs/sequel.js.org/blob/master/LICENSE.md)
+[![license](https://img.shields.io/github/license/sequeljs/sequel.js.org)](https://github.com/sequeljs/sequel.js.org/blob/main/LICENSE.md)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -35,8 +35,8 @@ served using any static contents hosting service.
 
 Feel free to contribute with this documentation. For more information, take a
 look at our
-[contributing guide](https://github.com/sequeljs/sequel.js.org/blob/master/CONTRIBUTING.md).
+[contributing guide](https://github.com/sequeljs/sequel.js.org/blob/main/CONTRIBUTING.md).
 
 ## License
 
-[MIT](https://github.com/sequeljs/sequel.js.org/blob/master/LICENSE)
+[MIT](https://github.com/sequeljs/sequel.js.org/blob/main/LICENSE)
