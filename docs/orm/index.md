@@ -6,8 +6,6 @@ sidebar_label: 'About'
 hide_title: true
 ---
 
-@sequeljs/orm / [Exports](modules.md)
-
 # Sequel.js - ORM
 
 `@sequeljs/orm` is an ORM built on top of `@sequeljs/ast` and `@sequeljs/omi`

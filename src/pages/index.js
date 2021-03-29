@@ -6,6 +6,10 @@ import Link from '@docusaurus/Link'
 import useBaseUrl from '@docusaurus/useBaseUrl'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
+import { API_REFERENCE_URL as AST_API_REFERENCE_URL } from '../../docs/ast/constants'
+import { API_REFERENCE_URL as OMI_API_REFERENCE_URL } from '../../docs/omi/constants'
+import { API_REFERENCE_URL as ORM_API_REFERENCE_URL } from '../../docs/orm/constants'
+
 import styles from './styles.module.css'
 
 const features = [
@@ -13,7 +17,7 @@ const features = [
     title: <Fragment>AST</Fragment>,
     description: <Fragment>A SQL AST manager with zero dependencies</Fragment>,
     links: [
-      { title: 'API Reference', to: 'docs/ast/api/modules' },
+      { title: 'API Reference', to: AST_API_REFERENCE_URL },
       { title: 'Source Code', href: 'https://github.com/sequeljs/ast' },
     ],
   },
@@ -27,7 +31,7 @@ const features = [
       </Fragment>
     ),
     links: [
-      { title: 'API Reference', to: 'docs/omi/api/modules' },
+      { title: 'API Reference', to: OMI_API_REFERENCE_URL },
       { title: 'Source Code', href: 'https://github.com/sequeljs/omi' },
     ],
   },
@@ -35,13 +39,14 @@ const features = [
     title: <Fragment>ORM</Fragment>,
     description: (
       <Fragment>
-        An ORM built on top of <code>@sequeljs/ast</code>
+        An ORM built on top of <code>@sequeljs/ast</code> and{' '}
+        <code>@sequeljs/omi</code>
         <br />
         (still under development)
       </Fragment>
     ),
     links: [
-      { title: 'API Reference', to: 'docs/orm/api/modules' },
+      { title: 'API Reference', to: ORM_API_REFERENCE_URL },
       { title: 'Source Code', href: 'https://github.com/sequeljs/orm' },
     ],
   },

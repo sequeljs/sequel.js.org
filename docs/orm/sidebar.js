@@ -1,1 +1,10 @@
-module.exports = ['orm/api/index', 'orm/api/modules']
+const { API_REFERENCE_URL } = require('./constants')
+
+module.exports = [
+  'orm/index',
+  {
+    type: 'link',
+    href: API_REFERENCE_URL,
+    label: 'API Reference',
+  },
+]

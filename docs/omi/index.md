@@ -6,8 +6,6 @@ sidebar_label: 'About'
 hide_title: true
 ---
 
-@sequeljs/omi / [Exports](modules.md)
-
 # Sequel.js - OMI
 
 `@sequeljs/omi` is a collection of interfaces for model classes in JavaScript.

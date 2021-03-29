@@ -40,11 +40,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'API References',
           items: [
-            { label: 'AST', to: 'docs/ast/api' },
-            { label: 'OMI', to: 'docs/omi/api' },
-            { label: 'ORM', to: 'docs/orm/api' },
+            { label: 'AST', to: 'https://sequeljs.github.io/ast/' },
+            { label: 'OMI', to: 'https://sequeljs.github.io/omi/' },
+            { label: 'ORM', to: 'https://sequeljs.github.io/orm/' },
           ],
         },
         {
@@ -69,21 +69,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sequel.js, Inc. Built with Docusaurus.`,
     },
   },
-  plugins: [
-    [
-      'docusaurus-plugin-typedoc',
-      {
-        entryPoints: ['./node_modules/@sequeljs/ast/src/index.ts'],
-        exclude: ['**/*.mixins.ts'],
-        out: 'ast/api',
-        sidebar: {
-          readmeLabel: 'About',
-          sidebarFile: './docs/ast/sidebar.js',
-        },
-        tsconfig: './docs/ast/tsconfig.json',
-      },
-    ],
-  ],
   presets: [
     [
       '@docusaurus/preset-classic',
