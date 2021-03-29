@@ -1,12 +1,11 @@
-# Website
+# Sequel.js
 
 [![build](https://github.com/sequeljs/sequel.js.org/workflows/build/badge.svg)](https://github.com/sequeljs/sequel.js.org/)
 [![license](https://img.shields.io/github/license/sequeljs/sequel.js.org)](https://github.com/sequeljs/sequel.js.org/blob/master/LICENSE.md)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern
-static website generator.
+Home of Sequel.js documentation.
 
 ### Installation
 
