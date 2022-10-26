@@ -12,10 +12,6 @@ module.exports = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    gtag: {
-      trackingID: 'UA-174064534-1',
-      anonymizeIP: true,
-    },
     navbar: {
       title: 'Sequel.js',
       logo: {
@@ -76,6 +72,10 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/sequeljs/sequel.js.org/edit/main/',
+        },
+        gtag: {
+          trackingID: 'UA-174064534-1',
+          anonymizeIP: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
