@@ -15,3 +15,8 @@ updates:
     commit-message:
       prefix: "chore(dependencies): "
       prefix-development: "chore(dev-dependencies): "
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/core"
+          - "@docusaurus/preset-classic"
